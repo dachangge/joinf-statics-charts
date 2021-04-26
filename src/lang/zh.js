@@ -29,6 +29,7 @@ export default {
     mail: '邮件',
     staff: '员工',
     product: '产品',
+    totalM: '综合',
     order: '订单',
     quote: '报价',
     filter: '筛选',
@@ -107,6 +108,12 @@ export default {
     plsEnterKey: '请输入关键词',
     plsEnterKeyFilter: '请输入关键词进行过滤',
     tagTips: '管理员查看不了他人客户标签',
+    intervalDays: '间隔天数',
+    intervalDaysTips: '仅统计已经签单的客户至查询日期内未签单的天数',
+    finishedNum: '完成数量',
+    unfinishedNum: '未完成数量',
+    finishingRate: '完成率',
+    above: '以上',
   },
   // 图表的维度
   chartDimension: {
@@ -135,6 +142,7 @@ export default {
     grades: '等级',
     mainProducts: '主营产品',
     intercourseMail: '往来邮件',
+    intercourseMailNum: '往来邮件数',
     overallTrend: '整体趋势',
     noContact: '未联系',
     contacted: '已联系',
@@ -149,7 +157,7 @@ export default {
     amountUSD: '金额(USD)',
     saleAmountUSD: '销售金额(USD)',
     quoteTimes: '报价次数',
-    amountRMB: '金额(RMB)',
+    amountRMB: '金额(CNY)',
     regionName: '国家/地区',
     averageUnitPriceUSD: '平均单价（USD)',
     enterprise: '企业',
@@ -157,7 +165,9 @@ export default {
     other: '其他',
     transferType: '转移方式',
     customerTags: '客户标签',
-    customerTagsNumber: '客户标签数量'
+    customerTagsNumber: '标签数量',
+    businessType: '业务类型',
+    source: '来源',
   },
   customer: {
     customerSummary: '客户汇总',
@@ -222,8 +232,8 @@ export default {
       order: '订单',
       quantity: '数量',
       orderAmountUSD: '订单金额（USD）',
-      orderAmountRMB: '订单金额（RMB）',
-      orderAmountUSDWRMB: '订单金额(USD/RMB)',
+      orderAmountRMB: '订单金额（CNY）',
+      orderAmountUSDWRMB: '订单金额(USD/CNY)',
       salesman: '业务员',
       newCount: '新增客户数',
       customerCount: '总客户数',
@@ -260,7 +270,7 @@ export default {
         quoteNum: '报价次数',
         businessNum: '商业数据关注数',
         performance: '业绩',
-        unit: '单位'
+        unit: '单位',
       }
     },
     enquiries: {
@@ -346,7 +356,8 @@ export default {
       header: '表头',
       systemFixedHeader: '系统内置表头',
       saveSuccess: '保存成功',
-      max12: '仅支持12张图表显示，请删减'
+      max12: '仅支持12张图表显示，请删减',
+      total: '综合'
     }
   },
   showSetting: {
@@ -384,6 +395,57 @@ export default {
     },
     businessOrderPeriod: {
       title: '商机成单周期'
+    }
+  },
+  total: {
+    effectiveInteraction: {
+      title: '有效互动'
+    },
+    channelQuality: {
+      title: '渠道质量'
+    },
+    typeSituation: {
+      title: '类型情况'
+    },
+    productManagementAnalysis: {
+      title: '产品经营分析'
+    }
+  },
+  performance: {
+    base: {
+      spread: '展开',
+      fold: '收起',
+      prevStep: '上一步',
+      nextStep: '下一步'
+    },
+    rule: {
+      yearTarget: '全年目标',
+      completed: '已完成',
+      progress: '进度',
+      edit: '编辑',
+      createRule: '新建绩效规则',
+      // Create Performance Rules
+    },
+    add: {
+      performanceName: '绩效名称',
+      plsSet: '请输入',
+      plsSetName: '请输入名称',
+      ruleDesc: '规则描述/口号',
+      descDemo: '例：再接再厉，再创辉煌',
+      selectExamination: '请选择一项考核内容',
+      isSetContent: '是否设置该项考核内容',
+      yes: '是',
+      no: '否',
+      examinationRule: '考核条件计入规则',
+      meetAll: '满足以上全部设置计入规则',
+      meetOne: '满足以上任意一个条件即可计入规则',
+      includeTime: '计入时间',
+      createTime: '创建时间'
+    },
+    progress: {
+      step1: '新建 绩效规则',
+      step2: '设定绩效目标值',
+      step3: '设置完成 查看绩效完成情况'
     }
   }
 }

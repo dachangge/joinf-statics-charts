@@ -219,3 +219,7 @@ export default {
     }
   }
 }
+function openTag(chartName) {
+  console.log(chartName)
+}
+export { openTag }

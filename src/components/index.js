@@ -7,7 +7,12 @@ const components = {
   chartBottomDimension,
 }
 import moduleCharts from '@/components/charts/index.js'
-
+Object.keys(moduleCharts).forEach(key => {
+  let moduleArr = moduleCharts[key]
+  moduleArr.forEach(module => {
+    module.path = key === 'mail' ? 'email' : key
+  })
+})
 const charts = Object.values(moduleCharts).reduce((prev, cur) => {
   prev.push(...cur)
   return prev
@@ -39,6 +44,9 @@ const install = function (Vue, opt = {}) {
 export default {
   version: '0.1.0',
   install,
+  setDefaultHeight(height) {
+    height && (globalConfig.defaultHeight = parseInt(height) + 'px')
+  },
   charts
 }
 export { globalConfig }

@@ -587,6 +587,13 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__164e__;
 
 /***/ }),
 
+/***/ "16bb":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "17c2":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -905,6 +912,21 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 
 /***/ }),
 
+/***/ "25eb":
+/***/ (function(module, exports, __webpack_require__) {
+
+var $ = __webpack_require__("23e7");
+var parseInt = __webpack_require__("c20d");
+
+// `Number.parseInt` method
+// https://tc39.es/ecma262/#sec-number.parseint
+$({ target: 'Number', stat: true, forced: Number.parseInt != parseInt }, {
+  parseInt: parseInt
+});
+
+
+/***/ }),
+
 /***/ "25f0":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1154,6 +1176,17 @@ module.exports = version && +version;
 
 /***/ }),
 
+/***/ "3076":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_chartTable_vue_vue_type_style_index_0_id_9a1f0b04_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("d809");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_chartTable_vue_vue_type_style_index_0_id_9a1f0b04_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_chartTable_vue_vue_type_style_index_0_id_9a1f0b04_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
 /***/ "342f":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1326,17 +1359,6 @@ $({ target: 'Array', proto: true, forced: [].forEach != forEach }, {
 var global = __webpack_require__("da84");
 
 module.exports = global;
-
-
-/***/ }),
-
-/***/ "4467":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_clueDistributionChart_vue_vue_type_style_index_0_id_172579b6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("f34f");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_clueDistributionChart_vue_vue_type_style_index_0_id_172579b6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_clueDistributionChart_vue_vue_type_style_index_0_id_172579b6_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
 
 
 /***/ }),
@@ -1814,6 +1836,17 @@ module.exports = getBuiltIn('Reflect', 'ownKeys') || function ownKeys(it) {
 
 /***/ }),
 
+/***/ "5720":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_customerTypeChangeChart_vue_vue_type_style_index_0_id_8492bc6e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("69e7");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_customerTypeChangeChart_vue_vue_type_style_index_0_id_8492bc6e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_customerTypeChangeChart_vue_vue_type_style_index_0_id_8492bc6e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
 /***/ "5899":
 /***/ (function(module, exports) {
 
@@ -1881,17 +1914,6 @@ module.exports = function (bitmap, value) {
     value: value
   };
 };
-
-
-/***/ }),
-
-/***/ "5df4":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_customerTypeChangeChart_vue_vue_type_style_index_0_id_4fb92d78_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("8394");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_customerTypeChangeChart_vue_vue_type_style_index_0_id_4fb92d78_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_customerTypeChangeChart_vue_vue_type_style_index_0_id_4fb92d78_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
 
 
 /***/ }),
@@ -2254,6 +2276,13 @@ module.exports = function (originalArray, length) {
 /* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_quoteConversionTrendChart_vue_vue_type_style_index_0_id_7ab58152_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_quoteConversionTrendChart_vue_vue_type_style_index_0_id_7ab58152_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
 
+
+/***/ }),
+
+/***/ "69e7":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -2887,13 +2916,6 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ "8394":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "83ab":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3031,17 +3053,6 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 /***/ }),
 
-/***/ "8918":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_orderCurrencyProportionChart_vue_vue_type_style_index_0_id_503d16be_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("ea56");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_orderCurrencyProportionChart_vue_vue_type_style_index_0_id_503d16be_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_orderCurrencyProportionChart_vue_vue_type_style_index_0_id_503d16be_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
-
-/***/ }),
-
 /***/ "8925":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3110,6 +3121,23 @@ module.exports = DESCRIPTORS ? function (object, key, value) {
   object[key] = value;
   return object;
 };
+
+
+/***/ }),
+
+/***/ "9129":
+/***/ (function(module, exports, __webpack_require__) {
+
+var $ = __webpack_require__("23e7");
+
+// `Number.isNaN` method
+// https://tc39.es/ecma262/#sec-number.isnan
+$({ target: 'Number', stat: true }, {
+  isNaN: function isNaN(number) {
+    // eslint-disable-next-line no-self-compare
+    return number != number;
+  }
+});
 
 
 /***/ }),
@@ -4198,6 +4226,17 @@ exports.BROKEN_CARET = fails(function () {
   re.lastIndex = 2;
   return re.exec('str') != null;
 });
+
+
+/***/ }),
+
+/***/ "a031":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_orderCurrencyProportionChart_vue_vue_type_style_index_0_id_0e082dfe_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("16bb");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_orderCurrencyProportionChart_vue_vue_type_style_index_0_id_0e082dfe_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_orderCurrencyProportionChart_vue_vue_type_style_index_0_id_0e082dfe_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
 
 
 /***/ }),
@@ -5422,6 +5461,27 @@ module.exports = function (input, PREFERRED_STRING) {
 
 /***/ }),
 
+/***/ "c20d":
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__("da84");
+var trim = __webpack_require__("58a8").trim;
+var whitespaces = __webpack_require__("5899");
+
+var $parseInt = global.parseInt;
+var hex = /^[+-]?0[Xx]/;
+var FORCED = $parseInt(whitespaces + '08') !== 8 || $parseInt(whitespaces + '0x16') !== 22;
+
+// `parseInt` method
+// https://tc39.es/ecma262/#sec-parseint-string-radix
+module.exports = FORCED ? function parseInt(string, radix) {
+  var S = trim(String(string));
+  return $parseInt(S, (radix >>> 0) || (hex.test(S) ? 16 : 10));
+} : $parseInt;
+
+
+/***/ }),
+
 /***/ "c430":
 /***/ (function(module, exports) {
 
@@ -6025,6 +6085,13 @@ module.exports = function (KEY, length, exec, sham) {
 
 /***/ }),
 
+/***/ "d809":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "d81d":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6048,6 +6115,13 @@ $({ target: 'Array', proto: true, forced: !HAS_SPECIES_SUPPORT || !USES_TO_LENGT
   }
 });
 
+
+/***/ }),
+
+/***/ "d87b":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -6884,13 +6958,6 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ "ea56":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "eff7":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6992,17 +7059,21 @@ hiddenKeys[METADATA] = true;
 
 /***/ }),
 
-/***/ "f34f":
+/***/ "f3fb":
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
 
 /***/ }),
 
-/***/ "f3fb":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "f4e0":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_clueDistributionChart_vue_vue_type_style_index_0_id_a48f9580_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("d87b");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_clueDistributionChart_vue_vue_type_style_index_0_id_a48f9580_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_clueDistributionChart_vue_vue_type_style_index_0_id_a48f9580_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
 
 /***/ }),
 
@@ -8879,6 +8950,12 @@ var es_array_some = __webpack_require__("45fc");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.number.constructor.js
 var es_number_constructor = __webpack_require__("a9e3");
 
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.number.parse-int.js
+var es_number_parse_int = __webpack_require__("25eb");
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.number.to-fixed.js
+var es_number_to_fixed = __webpack_require__("b680");
+
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.regexp.exec.js
 var es_regexp_exec = __webpack_require__("ac1f");
 
@@ -9108,6 +9185,8 @@ var component = normalizeComponent(
 });
 
 // CONCATENATED MODULE: ./src/components/chart_core.js
+
+
 
 
 
@@ -9791,7 +9870,12 @@ var screenfull;
 
       if (series.length === 1 && series[0].type === 'pie') {
         var ser = series[0];
-        ser.radius = [60, 130];
+        var height = Number.parseInt(this.height);
+        var scale = +(height / 400).toFixed(2);
+        var start = scale * 60;
+        var end = start + 70 * scale;
+        ser.radius = [start, end]; //  ser.radius = [60, 130]
+
         var data = ser.data;
 
         if (data.length > 15) {
@@ -10089,6 +10173,8 @@ var screenfull;
 
       var needZoom = series.find(function (it) {
         return (it.type === 'bar' || it.type === 'line' || it.type === 'pictorialBar') && it.data.length > 7;
+      }) || options.xAxis && options.xAxis.find(function (it) {
+        return it.data.length > 7;
       });
 
       if (needZoom) {
@@ -10695,6 +10781,62 @@ http.interceptors.response.use(function (response) {
     return axios.get('b/customer/customerTypeChangeDetail', {
       params: params
     });
+  },
+
+  /**
+   * @description: 获取客户未成单情况-客户名称维度
+   * @author: 陈新
+   * @time: 2021-03-03 15:27:08 星期三
+   * @param {Object} {}
+   * @return {promise}
+   */
+  getCustomerNotSignedCustomer: function getCustomerNotSignedCustomer(params) {
+    return axios.get('b/customer/notSigned/customerName', {
+      params: params
+    });
+  },
+
+  /**
+   * @description: 获取客户未成单情况-客户名称维度
+   * @author: 陈新
+   * @time: 2021-03-03 15:27:08 星期三
+   * @param {Object} {}
+   * @return {promise}
+   */
+  getCustomerNotSigned: function getCustomerNotSigned(params) {
+    return axios.get('b/customer/notSigned', {
+      params: params
+    });
+  },
+
+  /**
+   * @description 客户--有效互动
+   * @param {object} params - 查询条件
+   */
+  getCustomerInteract: function getCustomerInteract(params) {
+    return axios.get('b/customer/interact', {
+      params: params
+    });
+  },
+
+  /**
+   * @description 客户--渠道质量
+   * @param {object} params - 查询条件
+   */
+  getChannelQuality: function getChannelQuality(params) {
+    return axios.get('b/customer/channelQuality', {
+      params: params
+    });
+  },
+
+  /**
+   * @description 客户--类型情况
+   * @param {object} params - 查询条件
+   */
+  getTypeCondition: function getTypeCondition(params) {
+    return axios.get('b/customer/typeCondition', {
+      params: params
+    });
   }
 });
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
@@ -10771,6 +10913,7 @@ var chartTypeSession = 'chartTypeSession';
     }
 
     return {
+      height: parseInt(globalConfig.defaultHeight) - 20 + 'px',
       picker: null,
       pickerValue: [],
       chartIns: null,
@@ -10913,6 +11056,10 @@ function arrayTopNum(data, num) {
     }
   });
   return arr;
+}
+
+function es_cloneDeep(v) {
+  return JSON.parse(JSON.stringify(v));
 }
 
 
@@ -11291,9 +11438,6 @@ var customerFlowStepChartvue_type_template_id_07aad358_scoped_true_staticRenderF
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.last-index-of.js
 var es_array_last_index_of = __webpack_require__("baa5");
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es.number.to-fixed.js
-var es_number_to_fixed = __webpack_require__("b680");
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.string.trim.js
 var es_string_trim = __webpack_require__("498a");
@@ -12473,12 +12617,12 @@ var customerSourceConversionRateChart_component = normalizeComponent(
 )
 
 /* harmony default export */ var customerSourceConversionRateChart = (customerSourceConversionRateChart_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3c70a766-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/customerTypeChangeChart.vue?vue&type=template&id=4fb92d78&scoped=true&
-var customerTypeChangeChartvue_type_template_id_4fb92d78_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:{'summary-item': !_vm.inDetail}},[_c('div',{staticClass:"item-content"},[(!_vm.inDetail)?_c('div',{staticClass:"item-title"},[_vm._t("header"),_c('span',{staticClass:"ft-pingfang"},[_vm._v(" "+_vm._s(_vm.langs.typeChange)+" ")])],2):_vm._e(),_c('div',{staticClass:"item-chart"},[_c('div',{staticClass:"w ft-chart"},[_c('div',{staticClass:"chart-summary"},[_vm._v(" "+_vm._s(_vm.langs.statisticsTime)+"："+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.startDate))+" ~ "+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.endDate))+" "),(_vm.showDatePicker)?_c('i',{staticClass:"el-icon-date cursor m-l-5",on:{"click":function($event){return _vm.mountPicker($event, _vm.params)}}}):_vm._e()]),_c('div',{staticClass:"inner-chart-wrap"},[_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.visible),expression:"visible"}],ref:"customerTypeChangeChart",staticStyle:{"margin-top":"20px","width":"99%"},style:({'height': _vm.height}),attrs:{"name":"customerTypeChangeChart"}}),_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.dataShow),expression:"dataShow"}],staticClass:"el-table__empty-block",style:({'height': _vm.height})},[_c('span',{staticClass:"el-table__empty-text"},[_vm._v("暂无数据")])])])])])])])}
-var customerTypeChangeChartvue_type_template_id_4fb92d78_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3c70a766-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/customerTypeChangeChart.vue?vue&type=template&id=8492bc6e&scoped=true&
+var customerTypeChangeChartvue_type_template_id_8492bc6e_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:{'summary-item': !_vm.inDetail}},[_c('div',{staticClass:"item-content"},[(!_vm.inDetail)?_c('div',{staticClass:"item-title"},[_vm._t("header"),_c('span',{staticClass:"ft-pingfang"},[_vm._v(" "+_vm._s(_vm.langs.typeChange)+" ")])],2):_vm._e(),_c('div',{staticClass:"item-chart"},[_c('div',{staticClass:"w ft-chart"},[_c('div',{staticClass:"chart-summary"},[_vm._v(" "+_vm._s(_vm.langs.statisticsTime)+"："+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.startDate))+" ~ "+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.endDate))+" "),(_vm.showDatePicker)?_c('i',{staticClass:"el-icon-date cursor m-l-5",on:{"click":function($event){return _vm.mountPicker($event, _vm.params)}}}):_vm._e()]),_c('div',{staticClass:"inner-chart-wrap"},[_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.visible),expression:"visible"}],ref:"customerTypeChangeChart",staticStyle:{"margin-top":"20px","width":"99%"},style:({'height': _vm.height})}),_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.dataShow),expression:"dataShow"}],staticClass:"el-table__empty-block",style:({'height': _vm.height})},[_c('span',{staticClass:"el-table__empty-text"},[_vm._v("暂无数据")])])])])])])])}
+var customerTypeChangeChartvue_type_template_id_8492bc6e_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/charts/customerTypeChangeChart.vue?vue&type=template&id=4fb92d78&scoped=true&
+// CONCATENATED MODULE: ./src/components/charts/customerTypeChangeChart.vue?vue&type=template&id=8492bc6e&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/customerTypeChangeChart.vue?vue&type=script&lang=js&
 
@@ -12532,6 +12676,7 @@ var customerTypeChangeChartvue_type_template_id_4fb92d78_scoped_true_staticRende
 */
 
 /* eslint-disable */
+
 
 
 
@@ -12746,15 +12891,12 @@ var customerTypeChangeChartvue_type_template_id_4fb92d78_scoped_true_staticRende
             data: customerDisReportDtoList.filter(function (item) {
               return item.totalNumIn !== 0 || item.totalNumOut !== 0;
             })
-          });
+          }); // let domArr = document.getElementsByName("customerTypeChangeChart")
+          // for (let i = 0; i < domArr.length; i++) {
 
-          var domArr = document.getElementsByName("customerTypeChangeChart");
 
-          for (var _i = 0; _i < domArr.length; _i++) {
-            var customerTypeChangeChart = _this3.$echarts.init(domArr[_i]);
-
-            customerTypeChangeChart.setOption(_this3.option);
-          }
+          var customerTypeChangeChart = external_echarts_default.a.init(_this3.$refs.customerTypeChangeChart);
+          customerTypeChangeChart.setOption(_this3.option); // }
         }
       });
     },
@@ -12769,8 +12911,8 @@ var customerTypeChangeChartvue_type_template_id_4fb92d78_scoped_true_staticRende
 });
 // CONCATENATED MODULE: ./src/components/charts/customerTypeChangeChart.vue?vue&type=script&lang=js&
  /* harmony default export */ var charts_customerTypeChangeChartvue_type_script_lang_js_ = (customerTypeChangeChartvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/components/charts/customerTypeChangeChart.vue?vue&type=style&index=0&id=4fb92d78&lang=scss&scoped=true&
-var customerTypeChangeChartvue_type_style_index_0_id_4fb92d78_lang_scss_scoped_true_ = __webpack_require__("5df4");
+// EXTERNAL MODULE: ./src/components/charts/customerTypeChangeChart.vue?vue&type=style&index=0&id=8492bc6e&lang=scss&scoped=true&
+var customerTypeChangeChartvue_type_style_index_0_id_8492bc6e_lang_scss_scoped_true_ = __webpack_require__("5720");
 
 // CONCATENATED MODULE: ./src/components/charts/customerTypeChangeChart.vue
 
@@ -12783,16 +12925,16 @@ var customerTypeChangeChartvue_type_style_index_0_id_4fb92d78_lang_scss_scoped_t
 
 var customerTypeChangeChart_component = normalizeComponent(
   charts_customerTypeChangeChartvue_type_script_lang_js_,
-  customerTypeChangeChartvue_type_template_id_4fb92d78_scoped_true_render,
-  customerTypeChangeChartvue_type_template_id_4fb92d78_scoped_true_staticRenderFns,
+  customerTypeChangeChartvue_type_template_id_8492bc6e_scoped_true_render,
+  customerTypeChangeChartvue_type_template_id_8492bc6e_scoped_true_staticRenderFns,
   false,
   null,
-  "4fb92d78",
+  "8492bc6e",
   null
   
 )
 
-/* harmony default export */ var customerTypeChangeChart = (customerTypeChangeChart_component.exports);
+/* harmony default export */ var charts_customerTypeChangeChart = (customerTypeChangeChart_component.exports);
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3c70a766-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/customerTransferPathChart.vue?vue&type=template&id=3264d68a&scoped=true&
 var customerTransferPathChartvue_type_template_id_3264d68a_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:{'summary-item': !_vm.inDetail}},[_c('div',{staticClass:"item-content"},[(!_vm.inDetail)?_c('div',{staticClass:"item-title"},[_vm._t("header"),_c('span',{staticClass:"ft-pingfang"},[_vm._v(_vm._s(_vm.langs.transferPath))])],2):_vm._e(),_c('div',{staticClass:"item-chart"},[_c('div',{staticClass:"w ft-chart"},[_c('div',{staticClass:"chart-summary"},[_vm._v(" "+_vm._s(_vm.langs.statisticsTime)+"："+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.startDate))+" ~ "+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.endDate))+" ")]),_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.visible),expression:"visible"}],ref:"chartIns",staticStyle:{"margin-top":"20px","height":"380px","width":"99%"}}),_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.showNoData),expression:"showNoData"}],staticClass:"el-table__empty-block",staticStyle:{"position":"absolute","top":"25px","bottom":"0px","left":"0px","right":"20px","background":"rgb(255, 255, 255)"}},[_c('span',{staticClass:"el-table__empty-text"},[_vm._v("暂无数据")])])])])])])}
 var customerTransferPathChartvue_type_template_id_3264d68a_scoped_true_staticRenderFns = []
@@ -14174,6 +14316,24 @@ var productSalesRankingChartvue_type_template_id_464a2b63_scoped_true_staticRend
    */
   getByProductQuoteDis: function getByProductQuoteDis(params) {
     return axios.get('b/product/getByProductQuoteDis', {
+      params: params
+    });
+  },
+
+  /**
+   * 产品--经营分析--按分组
+   */
+  getManageAnalyseCode: function getManageAnalyseCode(params) {
+    return axios.get('b/product/manageAnalyse/code', {
+      params: params
+    });
+  },
+
+  /**
+   * 产品--经营分析--按分组
+   */
+  getManageAnalyseGroup: function getManageAnalyseGroup(params) {
+    return axios.get('b/product/manageAnalyse/group', {
       params: params
     });
   }
@@ -16334,12 +16494,12 @@ var orderTrendChart_component = normalizeComponent(
 )
 
 /* harmony default export */ var orderTrendChart = (orderTrendChart_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3c70a766-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/orderCurrencyProportionChart.vue?vue&type=template&id=503d16be&scoped=true&
-var orderCurrencyProportionChartvue_type_template_id_503d16be_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:{'summary-item': !_vm.inDetail}},[_c('div',{staticClass:"item-content"},[(!_vm.inDetail)?_c('div',{staticClass:"item-title"},[_vm._t("header"),_c('span',{staticClass:"ft-pingfang"},[_vm._v(" "+_vm._s(_vm.langs.orderCurrencyProportion)+" ")])],2):_vm._e(),_c('div',{staticClass:"item-chart"},[_c('div',{staticClass:"w ft-chart"},[(_vm.showTotalWrap)?_c('div',{staticClass:"chart-summary"},[_c('span',{staticClass:"fr"},[_vm._v(_vm._s(_vm.langs.orderTotal)+"："+_vm._s(_vm.totalNum))]),_vm._v(" "+_vm._s(_vm.langs.statisticsTime)+"："+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.startDate))+" ~ "+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.endDate))+" "),(_vm.showDatePicker)?_c('i',{staticClass:"el-icon-date cursor m-l-5",on:{"click":function($event){return _vm.mountPicker($event, _vm.params)}}}):_vm._e()]):_vm._e(),_c('chart-type-switch',{directives:[{name:"show",rawName:"v-show",value:(_vm.inDetail && _vm.visible),expression:"inDetail && visible"}],staticClass:"detail-fixed-switch",attrs:{"chart":_vm.chartIns,"types":['histogram', 'line', 'ring'],"currentType":_vm.settings.type}}),_c('div',{staticClass:"inner-chart-wrap"},[_c('chart',{directives:[{name:"show",rawName:"v-show",value:(_vm.visible),expression:"visible"}],ref:"chart",attrs:{"height":_vm.height,"dataFn":_vm.dataFn,"showChart":_vm.visible,"settings":_vm.settings,"tooltip":_vm.tooltip}})],1)],1)])])])}
-var orderCurrencyProportionChartvue_type_template_id_503d16be_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3c70a766-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/orderCurrencyProportionChart.vue?vue&type=template&id=0e082dfe&scoped=true&
+var orderCurrencyProportionChartvue_type_template_id_0e082dfe_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:{'summary-item': !_vm.inDetail}},[_c('div',{staticClass:"item-content"},[(!_vm.inDetail)?_c('div',{staticClass:"item-title"},[_vm._t("header"),_c('span',{staticClass:"ft-pingfang"},[_vm._v(" "+_vm._s(_vm.langs.orderCurrencyProportion)+" ")])],2):_vm._e(),_c('div',{staticClass:"item-chart"},[_c('div',{staticClass:"w ft-chart"},[(_vm.showTotalWrap)?_c('div',{staticClass:"chart-summary"},[_c('span',{staticClass:"fr"},[_vm._v(_vm._s(_vm.langs.orderTotal)+"："+_vm._s(_vm.totalNum))]),_vm._v(" "+_vm._s(_vm.langs.statisticsTime)+"："+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.startDate))+" ~ "+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.endDate))+" "),(_vm.showDatePicker)?_c('i',{staticClass:"el-icon-date cursor m-l-5",on:{"click":function($event){return _vm.mountPicker($event, _vm.params)}}}):_vm._e()]):_vm._e(),_c('div',{staticClass:"inner-chart-wrap"},[_c('chart',{directives:[{name:"show",rawName:"v-show",value:(_vm.visible),expression:"visible"}],ref:"chart",attrs:{"height":_vm.height,"dataFn":_vm.dataFn,"showChart":_vm.visible,"settings":_vm.settings,"tooltip":_vm.tooltip}})],1)])])])])}
+var orderCurrencyProportionChartvue_type_template_id_0e082dfe_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/charts/orderCurrencyProportionChart.vue?vue&type=template&id=503d16be&scoped=true&
+// CONCATENATED MODULE: ./src/components/charts/orderCurrencyProportionChart.vue?vue&type=template&id=0e082dfe&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/orderCurrencyProportionChart.vue?vue&type=script&lang=js&
 
@@ -16552,8 +16712,8 @@ var orderCurrencyProportionChartvue_type_template_id_503d16be_scoped_true_static
 });
 // CONCATENATED MODULE: ./src/components/charts/orderCurrencyProportionChart.vue?vue&type=script&lang=js&
  /* harmony default export */ var charts_orderCurrencyProportionChartvue_type_script_lang_js_ = (orderCurrencyProportionChartvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/components/charts/orderCurrencyProportionChart.vue?vue&type=style&index=0&id=503d16be&lang=scss&scoped=true&
-var orderCurrencyProportionChartvue_type_style_index_0_id_503d16be_lang_scss_scoped_true_ = __webpack_require__("8918");
+// EXTERNAL MODULE: ./src/components/charts/orderCurrencyProportionChart.vue?vue&type=style&index=0&id=0e082dfe&lang=scss&scoped=true&
+var orderCurrencyProportionChartvue_type_style_index_0_id_0e082dfe_lang_scss_scoped_true_ = __webpack_require__("a031");
 
 // CONCATENATED MODULE: ./src/components/charts/orderCurrencyProportionChart.vue
 
@@ -16566,11 +16726,11 @@ var orderCurrencyProportionChartvue_type_style_index_0_id_503d16be_lang_scss_sco
 
 var orderCurrencyProportionChart_component = normalizeComponent(
   charts_orderCurrencyProportionChartvue_type_script_lang_js_,
-  orderCurrencyProportionChartvue_type_template_id_503d16be_scoped_true_render,
-  orderCurrencyProportionChartvue_type_template_id_503d16be_scoped_true_staticRenderFns,
+  orderCurrencyProportionChartvue_type_template_id_0e082dfe_scoped_true_render,
+  orderCurrencyProportionChartvue_type_template_id_0e082dfe_scoped_true_staticRenderFns,
   false,
   null,
-  "503d16be",
+  "0e082dfe",
   null
   
 )
@@ -18947,12 +19107,12 @@ var staffConversionAnalysisChart_component = normalizeComponent(
 )
 
 /* harmony default export */ var staffConversionAnalysisChart = (staffConversionAnalysisChart_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3c70a766-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/clueDistributionChart.vue?vue&type=template&id=172579b6&scoped=true&
-var clueDistributionChartvue_type_template_id_172579b6_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:{'summary-item': !_vm.inDetail}},[_c('div',{staticClass:"item-content"},[(!_vm.inDetail)?_c('div',{staticClass:"item-title"},[_vm._t("header"),_c('span',{staticClass:"ft-pingfang"},[_vm._v(" "+_vm._s(_vm.langs.title)+" ")])],2):_vm._e(),_c('div',{staticClass:"item-chart"},[_c('div',{staticClass:"w ft-chart"},[_c('div',{staticClass:"chart-summary"},[_c('span',{staticClass:"fr"},[_vm._v(_vm._s(_vm.langs.clueTotal)+"："+_vm._s(_vm.totalNum))]),_vm._v(" "+_vm._s(_vm.langs.statisticsTime)+"："+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.startDate))+" ~ "+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.endDate))+" "),(_vm.showDatePicker)?_c('i',{staticClass:"el-icon-date cursor m-l-5",on:{"click":function($event){return _vm.mountPicker($event, _vm.params)}}}):_vm._e()]),(_vm.visible)?_c('chart-dimension',{attrs:{"data":_vm.chartDimension},model:{value:(_vm.dimension),callback:function ($$v) {_vm.dimension=$$v},expression:"dimension"}}):_vm._e(),_c('hide-button',{directives:[{name:"show",rawName:"v-show",value:(_vm.inDetail),expression:"inDetail"}],staticClass:"detail-fixed-btn",model:{value:(_vm.visible),callback:function ($$v) {_vm.visible=$$v},expression:"visible"}}),_c('chart',{directives:[{name:"show",rawName:"v-show",value:(_vm.visible),expression:"visible"}],ref:"chart",attrs:{"legend":_vm.legend,"dataFn":_vm.dataFn,"showChart":_vm.visible,"settings":_vm.settings}})],1)])])])}
-var clueDistributionChartvue_type_template_id_172579b6_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3c70a766-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/clueDistributionChart.vue?vue&type=template&id=a48f9580&scoped=true&
+var clueDistributionChartvue_type_template_id_a48f9580_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:{'summary-item': !_vm.inDetail}},[_c('div',{staticClass:"item-content"},[(!_vm.inDetail)?_c('div',{staticClass:"item-title"},[_vm._t("header"),_c('span',{staticClass:"ft-pingfang"},[_vm._v(" "+_vm._s(_vm.langs.title)+" ")])],2):_vm._e(),_c('div',{staticClass:"item-chart"},[_c('div',{staticClass:"w ft-chart"},[_c('div',{staticClass:"chart-summary"},[_c('span',{staticClass:"fr"},[_vm._v(_vm._s(_vm.langs.clueTotal)+"："+_vm._s(_vm.totalNum))]),_vm._v(" "+_vm._s(_vm.langs.statisticsTime)+"："+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.startDate))+" ~ "+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.endDate))+" "),(_vm.showDatePicker)?_c('i',{staticClass:"el-icon-date cursor m-l-5",on:{"click":function($event){return _vm.mountPicker($event, _vm.params)}}}):_vm._e()]),(_vm.visible)?_c('chart-dimension',{attrs:{"data":_vm.chartDimension},model:{value:(_vm.dimension),callback:function ($$v) {_vm.dimension=$$v},expression:"dimension"}}):_vm._e(),_c('chart',{directives:[{name:"show",rawName:"v-show",value:(_vm.visible),expression:"visible"}],ref:"chart",attrs:{"legend":_vm.legend,"dataFn":_vm.dataFn,"showChart":_vm.visible,"settings":_vm.settings}})],1)])])])}
+var clueDistributionChartvue_type_template_id_a48f9580_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/charts/clueDistributionChart.vue?vue&type=template&id=172579b6&scoped=true&
+// CONCATENATED MODULE: ./src/components/charts/clueDistributionChart.vue?vue&type=template&id=a48f9580&scoped=true&
 
 // CONCATENATED MODULE: ./src/api/businessApi.js
 /*
@@ -19232,8 +19392,8 @@ var clueDistributionChartvue_type_template_id_172579b6_scoped_true_staticRenderF
 });
 // CONCATENATED MODULE: ./src/components/charts/clueDistributionChart.vue?vue&type=script&lang=js&
  /* harmony default export */ var charts_clueDistributionChartvue_type_script_lang_js_ = (clueDistributionChartvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/components/charts/clueDistributionChart.vue?vue&type=style&index=0&id=172579b6&lang=scss&scoped=true&
-var clueDistributionChartvue_type_style_index_0_id_172579b6_lang_scss_scoped_true_ = __webpack_require__("4467");
+// EXTERNAL MODULE: ./src/components/charts/clueDistributionChart.vue?vue&type=style&index=0&id=a48f9580&lang=scss&scoped=true&
+var clueDistributionChartvue_type_style_index_0_id_a48f9580_lang_scss_scoped_true_ = __webpack_require__("f4e0");
 
 // CONCATENATED MODULE: ./src/components/charts/clueDistributionChart.vue
 
@@ -19246,11 +19406,11 @@ var clueDistributionChartvue_type_style_index_0_id_172579b6_lang_scss_scoped_tru
 
 var clueDistributionChart_component = normalizeComponent(
   charts_clueDistributionChartvue_type_script_lang_js_,
-  clueDistributionChartvue_type_template_id_172579b6_scoped_true_render,
-  clueDistributionChartvue_type_template_id_172579b6_scoped_true_staticRenderFns,
+  clueDistributionChartvue_type_template_id_a48f9580_scoped_true_render,
+  clueDistributionChartvue_type_template_id_a48f9580_scoped_true_staticRenderFns,
   false,
   null,
-  "172579b6",
+  "a48f9580",
   null
   
 )
@@ -20344,6 +20504,1565 @@ var businessLostReasonChart_component = normalizeComponent(
 )
 
 /* harmony default export */ var businessLostReasonChart = (businessLostReasonChart_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3c70a766-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/effectiveInteractionChart.vue?vue&type=template&id=003f6536&scoped=true&
+var effectiveInteractionChartvue_type_template_id_003f6536_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:{'summary-item': !_vm.$attrs.inDetail}},[_c('div',{staticClass:"item-content"},[(!_vm.$attrs.inDetail)?_c('div',{staticClass:"item-title"},[_vm._t("header"),_c('span',{staticClass:"ft-pingfang"},[_vm._v(" "+_vm._s(_vm.langs.title)+" ")])],2):_vm._e(),_c('div',{staticClass:"item-chart"},[_c('div',{staticClass:"w ft-chart"},[(!_vm.$attrs.inDetail)?_c('div',{staticClass:"chart-summary"},[_vm._v(" "+_vm._s(_vm.langs.statisticsTime)+"："+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.startDate))+" ~ "+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.endDate))+" "),(_vm.showDatePicker)?_c('i',{staticClass:"el-icon-date cursor m-l-5",on:{"click":function($event){return _vm.mountPicker($event, _vm.params)}}}):_vm._e()]):_vm._e(),_c('chart-dimension',{attrs:{"data":_vm.chartDimension},on:{"change":_vm.getData},model:{value:(_vm.dimension),callback:function ($$v) {_vm.dimension=$$v},expression:"dimension"}}),_c('chartTable',{ref:"chart",staticClass:"chart-table",attrs:{"data":_vm.tableData,"columns":_vm.tableColumns,"postParams":_vm.postParams}})],1)])])])}
+var effectiveInteractionChartvue_type_template_id_003f6536_scoped_true_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/charts/effectiveInteractionChart.vue?vue&type=template&id=003f6536&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3c70a766-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/chart-table/chartTable.vue?vue&type=template&id=9a1f0b04&scoped=true&
+var chartTablevue_type_template_id_9a1f0b04_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('el-scrollbar',{ref:"scrollbar",staticClass:"chart-table-scrollbar",staticStyle:{"width":"100%","margin-top":"10px","border":"1px solid #EBEEF5"}},[_c('div',{directives:[{name:"loading",rawName:"v-loading",value:(_vm.loading),expression:"loading"}],staticClass:"chart-table detail-table-wapper el-table detail-table",staticStyle:{"margin":"0 !important","border":"none !important"},style:({height: _vm.height, 'min-width': _vm.tableWidth + 'px'})},[_c('table',{staticClass:"el-table__header fl",staticStyle:{"width":"124px","position":"absolute","top":"-2px","left":"-2px"}},[_c('thead',[_c('tr',{staticClass:"detail-header-row"},[_c('th',[_c('div',{staticClass:"cell"},[_vm._v(" "+_vm._s(_vm.columns[0].label[_vm.i18n])+" ")])])])])]),_c('table',{staticClass:"el-table__header",staticStyle:{"width":"100%","padding-left":"120px"},attrs:{"cellspacing":"0","cellpadding":"0","border":"0"}},[_c('colgroup',_vm._l((_vm.columns1),function(col,idx){return _c('col',{key:idx,style:({'min-width': parseInt(col.width || 90) + 'px', width: parseInt(col.width || 90) + 'px'})})}),0),_c('thead',[_c('tr',{staticClass:"detail-header-row"},_vm._l((_vm.columns1),function(col,idx){
+var _obj;
+return _c('th',{key:idx,class:( _obj = {'is-sortable': col.sortable}, _obj[_vm.sortType] = _vm.sortColumn === col.prop, _obj ),on:{"click":function($event){return _vm.handleSort(col)}}},[_c('div',{staticClass:"cell"},[_c('span',{staticClass:"one-line table-head",class:{sortable: col.sortable, hasTooltip: col.tooltip}},[_vm._v(" "+_vm._s(col.label[_vm.i18n])+" ")]),(col.tooltip)?_c('el-tooltip',{ref:"tooltip",refInFor:true,attrs:{"append-to-body":false,"placement":"top","content":col.tooltip[_vm.i18n]}},[_c('icon',{staticStyle:{"margin-top":"-2px"},attrs:{"type":"icon_question","color":"#6C9AE7"}})],1):_vm._e(),(col.sortable)?_c('span',{staticClass:"caret-wrapper"},[_c('i',{staticClass:"sort-caret ascending"}),_c('i',{staticClass:"sort-caret descending"})]):_vm._e()],1)])}),0)])]),_c('el-scrollbar',{staticStyle:{"height":"calc(100% - 60px)"},style:({'min-width': _vm.tableWidth + 'px'})},_vm._l((_vm.data),function(child,idx){return _c('div',{key:child.id || idx,staticClass:"child-table-wrap"},[_c('div',{staticClass:"left-title fl",style:({width: '120px', height: child.children.length > 5 ? '180px' : 36 * child.children.lengt + 'px'})},[_c('span',{staticClass:"one-line"},[_vm._v(" "+_vm._s(child[_vm.columns[0].prop])+" ")])]),_c('el-scrollbar',{style:({height: child.children.length > 5 ? '180px' : 36 * child.children.length + 'px'})},[_c('table',{staticClass:"child-table",attrs:{"cellspacing":"0","cellpadding":"0","border":"0"}},[_c('colgroup',_vm._l((_vm.columns1),function(col,idx){return _c('col',{key:idx,style:({'min-width': parseInt(col.width || 90) + 'px', width: parseInt(col.width || 90) + 'px'})})}),0),_c('tbody',_vm._l((child.children),function(row,idx2){return _c('tr',{key:row.id || idx2,staticClass:"el-table__row"},_vm._l((_vm.columns1),function(col){return _c('td',{key:col.prop},[_c('div',{staticClass:"cell"},[(_vm.clickTypes[col.prop] && parseFloat(row[col.prop]) > 0)?_c('a',{staticClass:"link one-line",on:{"click":function($event){return _vm.handleRowclick(child, row, col.prop)}}},[_vm._v(_vm._s(row[col.prop]))]):_c('span',{staticClass:"one-line"},[_vm._v(_vm._s(row[col.prop]))])])])}),0)}),0)])])],1)}),0),(!_vm.data || _vm.data.length === 0)?_c('div',{staticClass:"el-table__empty-block",staticStyle:{"height":"calc(100% - 45px)","position":"absolute","top":"45px","background":"rgb(255, 255, 255)"}},[_c('span',{staticClass:"el-table__empty-text",staticStyle:{"padding-top":"75px"}},[_vm._v("暂无数据")])]):_vm._e()],1)])}
+var chartTablevue_type_template_id_9a1f0b04_scoped_true_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/chart-table/chartTable.vue?vue&type=template&id=9a1f0b04&scoped=true&
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.number.is-nan.js
+var es_number_is_nan = __webpack_require__("9129");
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/chart-table/chartTable.vue?vue&type=script&lang=js&
+
+
+
+
+
+
+
+
+
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ var chartTablevue_type_script_lang_js_ = ({
+  name: 'chartTable',
+  data: function data() {
+    return {
+      height: parseInt(globalConfig.defaultHeight) - 20 + 'px',
+      // 当前排序列
+      sortColumn: '',
+      // 当前排序方式
+      sortType: '',
+      // 原始数据的copy
+      dataCopy: [],
+      // 数据加载中状态
+      loading: false,
+      // 可点击跳转明细的类型
+      clickTypes: {
+        customerTotal: 1,
+        replyEmailCustomerTotal: 1,
+        sendEmailCustomerTotal: 1,
+        unSendEmailCustomerTotal: 1,
+        cooperationTotal: 1,
+        moreOrderCustomerTotal: 1,
+        signedAmount: 1
+      }
+    };
+  },
+  props: {
+    // 表格列定义
+    columns: {
+      type: Array,
+      default: function _default() {
+        return [];
+      }
+    },
+    // 表格数据
+    data: {
+      type: Array,
+      default: function _default() {
+        return [];
+      }
+    },
+    // 查询参数
+    postParams: {
+      type: Object
+    }
+  },
+  computed: {
+    // 当前语言 zh | en
+    i18n: function i18n() {
+      return this.$i18n.locale;
+    },
+    tableWidth: function tableWidth() {
+      return this.columns1.reduce(function (prev, cur) {
+        return prev + cur.width;
+      }, 120);
+    },
+    // 下标从1开始的列表定义
+    columns1: function columns1() {
+      return this.columns.slice(1);
+    }
+  },
+  methods: {
+    /**
+     * @description: 获取导出数据
+     * @author: 万焕昌 <11******32@qq.com>
+     * @time: 2021-03-18 15:20:56 Thursday
+     */
+    getExportData: function getExportData() {
+      var _this = this;
+
+      var header = this.columns.map(function (it) {
+        return it.label[_this.i18n];
+      });
+      var body = this.data.reduce(function (prev, cur) {
+        var first = cur[_this.columns[0].prop];
+        prev.push.apply(prev, _toConsumableArray(cur.children.map(function (it) {
+          return [first].concat(_toConsumableArray(_this.columns1.map(function (col) {
+            return it[col.prop];
+          })));
+        })));
+        return prev;
+      }, []);
+      return [header].concat(_toConsumableArray(body));
+    },
+    handleSort: function handleSort(col) {
+      var _this2 = this;
+
+      var hasChild = this.data.find(function (item) {
+        return item.children && item.children.length > 1;
+      }); // 含有多个子集的 就按照二级数据排列
+
+      if (!col.sortable) return;
+
+      if (this.sortColumn !== col.prop) {
+        this.sortColumn = col.prop;
+        this.sortType = 'ascending';
+      } else if (this.sortType === '') {
+        this.sortType = 'ascending';
+      } else if (this.sortType === 'ascending') {
+        this.sortType = 'descending';
+      } else {
+        this.sortType = '';
+      }
+
+      if (!this.sortType) {
+        this.data = es_cloneDeep(this.dataCopy);
+      } else if (this.sortType === 'ascending') {
+        if (hasChild) {
+          this.data.forEach(function (it) {
+            it.children = it.children.sort(function (a, b) {
+              return _this2.sort(parseFloat(a[col.prop]), parseFloat(b[col.prop]));
+            });
+          });
+        } else {
+          this.data.sort(function (a, b) {
+            return _this2.sort(parseFloat(a.children[0][col.prop]), parseFloat(b.children[0][col.prop]));
+          });
+        }
+      } else if (this.sortType === 'descending') {
+        if (hasChild) {
+          this.data.forEach(function (it) {
+            it.children = it.children.sort(function (a, b) {
+              return _this2.sort(parseFloat(b[col.prop]), parseFloat(a[col.prop]));
+            });
+          });
+        } else {
+          this.data.sort(function (a, b) {
+            return _this2.sort(parseFloat(b.children[0][col.prop]), parseFloat(a.children[0][col.prop]));
+          });
+        }
+      }
+    },
+
+    /**
+     * @description: 排序方法  将 -- 改为最小
+     * @author: 万焕昌 <1109923832@qq.com>
+     * @time: 2020-12-06 13:29:34 Sunday
+     * @param {*} a
+     * @param {*} b
+     */
+    sort: function sort(a, b) {
+      console.log(a, b);
+
+      if (Number.isNaN(b)) {
+        return 1;
+      }
+
+      if (Number.isNaN(a)) {
+        return -1;
+      }
+
+      return a - b;
+    },
+
+    /**
+     * @description 行点击事件
+     */
+    handleRowclick: function handleRowclick(child, row, type) {
+      var urlParam = '';
+
+      var _ref = this.postParams || {},
+          startDate = _ref.startDate,
+          endDate = _ref.endDate;
+
+      if (startDate && endDate) {
+        if (type === 'signedAmount') {
+          urlParam += "&customerStartDate=".concat(startDate, "&customerEndDate=").concat(endDate);
+        } else {
+          urlParam += "&startDate=".concat(startDate, "&endDate=").concat(endDate);
+        }
+      }
+
+      this.columns.forEach(function (it, idx) {
+        var linkKey = it.linkKey;
+
+        if (idx === 0 && linkKey) {
+          urlParam += "&".concat(linkKey, "=").concat(child[it.dataKey]);
+        } else if (linkKey) {
+          if (it.dataKey === 'productSpecId') {
+            urlParam += "&".concat(linkKey, "=").concat(row[it.dataKey] || child.productId);
+          } else {
+            urlParam += "&".concat(linkKey, "=").concat(row[it.dataKey]);
+          }
+        }
+      });
+
+      if (type === 'replyEmailCustomerTotal') {
+        urlParam += '&queryStatsModule=6';
+      }
+
+      if (type === 'sendEmailCustomerTotal') {
+        urlParam += '&queryStatsModule=7';
+      }
+
+      if (type === 'unSendEmailCustomerTotal') {
+        urlParam += '&queryStatsModule=8';
+      }
+
+      if (type === 'cooperationTotal') {
+        urlParam += '&isCooperation=1';
+      }
+
+      if (type === 'moreOrderCustomerTotal') {
+        urlParam += '&isMoreOrderCustomer=1';
+      }
+
+      if (type === 'signedAmount') {
+        this.openSystemUrl("/order/order?type=paramQuery&orderStatus=8,1".concat(urlParam, "&t=").concat(Date.now()));
+      } else {
+        this.openSystemUrl("/customer/customers?from=stats".concat(urlParam, "&t=").concat(Date.now()));
+      }
+    }
+  },
+  watch: {
+    columns: function columns() {
+      var _this3 = this;
+
+      this.$nextTick(function () {
+        if (_this3.$refs.scrollbar) {
+          _this3.$refs.scrollbar.update();
+        }
+
+        if (_this3.$refs.tooltip) {
+          _this3.$refs.tooltip.forEach(function (vm) {
+            _this3.$parent.$el.appendChild(vm.popperVM.$el);
+          });
+        }
+      });
+    },
+    data: {
+      handler: function handler() {
+        var _this4 = this;
+
+        this.dataCopy = es_cloneDeep(this.data);
+        this.loading = true;
+        this.$nextTick(function () {
+          _this4.loading = false;
+        });
+      },
+      immediate: true
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/components/chart-table/chartTable.vue?vue&type=script&lang=js&
+ /* harmony default export */ var chart_table_chartTablevue_type_script_lang_js_ = (chartTablevue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/components/chart-table/chartTable.vue?vue&type=style&index=0&id=9a1f0b04&lang=scss&scoped=true&
+var chartTablevue_type_style_index_0_id_9a1f0b04_lang_scss_scoped_true_ = __webpack_require__("3076");
+
+// CONCATENATED MODULE: ./src/components/chart-table/chartTable.vue
+
+
+
+
+
+
+/* normalize component */
+
+var chartTable_component = normalizeComponent(
+  chart_table_chartTablevue_type_script_lang_js_,
+  chartTablevue_type_template_id_9a1f0b04_scoped_true_render,
+  chartTablevue_type_template_id_9a1f0b04_scoped_true_staticRenderFns,
+  false,
+  null,
+  "9a1f0b04",
+  null
+  
+)
+
+/* harmony default export */ var chartTable = (chartTable_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/effectiveInteractionChart.vue?vue&type=script&lang=js&
+
+
+
+
+
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+/* harmony default export */ var effectiveInteractionChartvue_type_script_lang_js_ = ({
+  name: 'effectiveInteractionChart',
+  mixins: [dateRange],
+  components: {
+    chartTable: chartTable
+  },
+  data: function data() {
+    var allColumns = [{
+      label: {
+        zh: '来源',
+        en: 'Source'
+      },
+      prop: 'dimensionValue',
+      linkKey: 'sources',
+      dataKey: 'dimensionId',
+      width: 120
+    }, {
+      label: {
+        zh: '类型',
+        en: 'Type'
+      },
+      prop: 'customerTypeName',
+      linkKey: 'types',
+      dataKey: 'customerType',
+      width: 76
+    }, {
+      label: {
+        zh: '客户数量',
+        en: 'Customer number'
+      },
+      prop: 'customerTotal',
+      width: 100,
+      sortable: true
+    }, {
+      label: {
+        zh: '未成单时期互动率(%)',
+        en: 'Interaction rate during unfinished single period(%)'
+      },
+      prop: 'noSignedInteractRate',
+      width: 168,
+      sortable: true,
+      tooltip: {
+        zh: '未成单时期互动率 = 客户已回复邮件 / 发送给客户的邮件总数，同封邮件被回复多次只记录一封,未成单互动率指未在系统中产生订单时期的邮件互动情况',
+        en: 'Unciphered intermediate interactive rate = customer has replied to the total number of mail / sent to the customer, the same email is replied to only record a number, and the unspeakable interactive rate refers to the message interaction between the order period not generated in the system.'
+      }
+    }, {
+      label: {
+        zh: '有回复的互动量',
+        en: 'Response volume'
+      },
+      prop: 'replyEmailCustomerTotal',
+      width: 136,
+      sortable: true
+    }, {
+      label: {
+        zh: '有效互动率(%)',
+        en: 'Effective interaction rate(%)'
+      },
+      prop: 'interactRate',
+      width: 136,
+      sortable: true,
+      tooltip: {
+        zh: '有效互动率 = 客户回复数 / 发送给客户的邮件总数，同封邮件被回复多次只记录一封',
+        en: 'Effective interaction rate = number of customer replies/total number of emails sent to customers. Only one email is recorded when the same email is replied many times'
+      }
+    }, {
+      label: {
+        zh: '已发送邮件客户数',
+        en: 'Number of mail customers sent'
+      },
+      prop: 'sendEmailCustomerTotal',
+      width: 136,
+      sortable: true,
+      dimension: 2
+    }, {
+      label: {
+        zh: '未发送邮件的客户数',
+        en: 'Number of customers who did not send email'
+      },
+      prop: 'unSendEmailCustomerTotal',
+      width: 136,
+      sortable: true,
+      dimension: 2
+    }];
+    return {
+      // 所有的列定义
+      allColumns: allColumns,
+      // 当前查询参数的克隆对象
+      postParams: {},
+      // 纬度值
+      dimension: 1,
+      // 维度选项
+      chartDimension: [{
+        text: '来源',
+        value: 1,
+        lang: 'source'
+      }, {
+        text: '员工',
+        value: 2,
+        lang: 'staff'
+      }],
+      // 表格数据
+      tableData: [],
+      // 表格列定义
+      tableColumns: [],
+      observer: null
+    };
+  },
+  props: {
+    params: {}
+  },
+  computed: {
+    langs: function langs() {
+      return this.$tt('base', 'total.effectiveInteraction');
+    }
+  },
+  mounted: function mounted() {
+    var _this = this;
+
+    this.observerOnce();
+    Object.keys(this.params).forEach(function (key) {
+      _this.$watch("params.".concat(key), _this.observerOnce);
+    });
+  },
+  watch: {
+    params: function params() {
+      this.observerOnce();
+    }
+  },
+  methods: {
+    observerOnce: function observerOnce() {
+      var _this2 = this;
+
+      if (this.observer) {
+        this.observer.unobserve(this.$el);
+        this.observer.disconnect();
+      }
+
+      this.observer = new IntersectionObserver(function () {
+        var called = false;
+        return function (entries) {
+          if (called) return;
+
+          if (entries[0].intersectionRatio > 0) {
+            called = true;
+
+            _this2.getData();
+          }
+        };
+      }());
+      this.observer.observe(this.$el);
+    },
+    getData: function getData() {
+      var _this3 = this;
+
+      var params = _objectSpread2(_objectSpread2({}, this.params), {}, {
+        dimension: this.dimension
+      });
+
+      if (params.dateRange && Array.isArray(params.dateRange)) {
+        params.startDate = params.dateRange[0];
+        params.endDate = params.dateRange[1];
+      }
+
+      this.postParams = params;
+      this.tableColumns = this.allColumns.filter(function (it) {
+        return !it.dimension || _this3.dimension === it.dimension;
+      });
+      customerApi.getCustomerInteract(transferPropertyArrayToString(params)).then(function (res) {
+        _this3.tableColumns[0].label = _this3.dimension === 1 ? {
+          zh: '来源',
+          en: 'Source'
+        } : {
+          zh: '员工',
+          en: 'Staff'
+        };
+        _this3.tableColumns[0].linkKey = _this3.dimension === 1 ? 'sources' : 'statisticsOperatorId';
+        _this3.tableData = res.data.map(function (it) {
+          return _objectSpread2(_objectSpread2({}, it), {}, {
+            children: it.customerInteractDtoList
+          });
+        });
+      });
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/components/charts/effectiveInteractionChart.vue?vue&type=script&lang=js&
+ /* harmony default export */ var charts_effectiveInteractionChartvue_type_script_lang_js_ = (effectiveInteractionChartvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/components/charts/effectiveInteractionChart.vue
+
+
+
+
+
+/* normalize component */
+
+var effectiveInteractionChart_component = normalizeComponent(
+  charts_effectiveInteractionChartvue_type_script_lang_js_,
+  effectiveInteractionChartvue_type_template_id_003f6536_scoped_true_render,
+  effectiveInteractionChartvue_type_template_id_003f6536_scoped_true_staticRenderFns,
+  false,
+  null,
+  "003f6536",
+  null
+  
+)
+
+/* harmony default export */ var effectiveInteractionChart = (effectiveInteractionChart_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3c70a766-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/channelQualityChart.vue?vue&type=template&id=6ecbf570&scoped=true&
+var channelQualityChartvue_type_template_id_6ecbf570_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:{'summary-item': !_vm.$attrs.inDetail}},[_c('div',{staticClass:"item-content"},[(!_vm.$attrs.inDetail)?_c('div',{staticClass:"item-title"},[_vm._t("header"),_c('span',{staticClass:"ft-pingfang"},[_vm._v(" "+_vm._s(_vm.langs.title)+" ")])],2):_vm._e(),_c('div',{staticClass:"item-chart"},[_c('div',{staticClass:"w ft-chart"},[(!_vm.$attrs.inDetail)?_c('div',{staticClass:"chart-summary"}):_vm._e(),_c('chart-dimension',{attrs:{"data":_vm.chartDimension},on:{"change":_vm.getData},model:{value:(_vm.dimension),callback:function ($$v) {_vm.dimension=$$v},expression:"dimension"}}),_c('chartTable',{ref:"chart",staticClass:"chart-table",attrs:{"data":_vm.tableData,"columns":_vm.tableColumns,"postParams":_vm.postParams}})],1)])])])}
+var channelQualityChartvue_type_template_id_6ecbf570_scoped_true_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/charts/channelQualityChart.vue?vue&type=template&id=6ecbf570&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/channelQualityChart.vue?vue&type=script&lang=js&
+
+
+
+
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+/* harmony default export */ var channelQualityChartvue_type_script_lang_js_ = ({
+  name: 'channelQualityChart',
+  mixins: [dateRange],
+  components: {
+    chartTable: chartTable
+  },
+  data: function data() {
+    return {
+      // 当前查询参数的克隆对象
+      postParams: {},
+      // 纬度值
+      dimension: 1,
+      // 维度选项
+      chartDimension: [{
+        text: '按年显示',
+        value: 1,
+        lang: 'year'
+      }, {
+        text: '按月显示',
+        value: 2,
+        lang: 'month'
+      }, {
+        text: '按员工显示',
+        value: 3,
+        lang: 'staff'
+      }],
+      // 表格数据
+      tableData: [],
+      // 表格列定义
+      tableColumns: [{
+        label: {
+          zh: '客户来源',
+          en: 'Customer Source'
+        },
+        prop: 'dimensionOneValue',
+        linkKey: 'sources',
+        dataKey: 'dimensionOneId',
+        width: 120
+      }, {
+        label: {
+          zh: '创建年份',
+          en: 'Date'
+        },
+        prop: 'dimensionTwoValue',
+        linkKey: 'yearOrMonth',
+        dataKey: 'dimensionTwoValue',
+        width: 76,
+        sortable: true
+      }, {
+        label: {
+          zh: '客户数量',
+          en: 'Customer number'
+        },
+        prop: 'customerTotal',
+        width: 100,
+        sortable: true
+      }, {
+        label: {
+          zh: '总数比例/转化率(%)',
+          en: 'Proportion / Conversion(%)'
+        },
+        prop: 'cooperationRate',
+        width: 168
+      }, {
+        label: {
+          zh: '合作客户',
+          en: 'Cooperative'
+        },
+        prop: 'cooperationTotal',
+        width: 136,
+        sortable: true
+      }, {
+        label: {
+          zh: '金额(USD)',
+          en: 'Amount'
+        },
+        prop: 'signedAmount',
+        width: 136,
+        sortable: true
+      }, {
+        label: {
+          zh: '返单客户数(产生两笔订单以上的客户)',
+          en: 'Returned(Customers with two more orders)'
+        },
+        prop: 'moreOrderCustomerTotal',
+        width: 136,
+        sortable: true
+      }],
+      observer: null
+    };
+  },
+  props: {
+    params: {}
+  },
+  computed: {
+    langs: function langs() {
+      return this.$tt('base', 'total.channelQuality');
+    }
+  },
+  mounted: function mounted() {
+    var _this = this;
+
+    this.observerOnce();
+    Object.keys(this.params).forEach(function (key) {
+      _this.$watch("params.".concat(key), _this.observerOnce);
+    });
+  },
+  watch: {
+    params: function params() {
+      this.observerOnce();
+    }
+  },
+  methods: {
+    observerOnce: function observerOnce() {
+      var _this2 = this;
+
+      if (this.observer) {
+        this.observer.unobserve(this.$el);
+        this.observer.disconnect();
+      }
+
+      this.observer = new IntersectionObserver(function () {
+        var called = false;
+        return function (entries) {
+          if (called) return;
+
+          if (entries[0].intersectionRatio > 0) {
+            called = true;
+
+            _this2.getData();
+          }
+        };
+      }());
+      this.observer.observe(this.$el);
+    },
+    getData: function getData() {
+      var _this3 = this;
+
+      var params = _objectSpread2(_objectSpread2({}, this.params), {}, {
+        dimension: this.dimension
+      });
+
+      this.postParams = params;
+      this.switchDate(this.dimension);
+      customerApi.getChannelQuality(transferPropertyArrayToString(params)).then(function (res) {
+        _this3.tableData = res.data.map(function (it) {
+          return _objectSpread2(_objectSpread2({}, it), {}, {
+            children: it.customerChannelQualityDtoList
+          });
+        });
+      });
+    },
+    switchDate: function switchDate(type) {
+      if (type === 3) {
+        this.tableColumns = [{
+          label: {
+            zh: '业务员',
+            en: 'salesman'
+          },
+          prop: 'dimensionOneValue',
+          linkKey: 'statisticsOperatorId',
+          dataKey: 'dimensionOneId',
+          width: 120
+        }, {
+          label: {
+            zh: '客户来源',
+            en: 'Customer Source'
+          },
+          prop: 'dimensionTwoValue',
+          linkKey: 'sources',
+          dataKey: 'dimensionTwoId',
+          width: 120,
+          sortable: true
+        }, {
+          label: {
+            zh: '客户数量',
+            en: 'Customer number'
+          },
+          prop: 'customerTotal',
+          width: 100,
+          sortable: true
+        }, {
+          label: {
+            zh: '总数比例/转化率(%)',
+            en: 'Proportion / Conversion(%)'
+          },
+          prop: 'cooperationRate',
+          width: 168
+        }, {
+          label: {
+            zh: '合作客户',
+            en: 'Cooperative'
+          },
+          prop: 'cooperationTotal',
+          width: 136,
+          sortable: true
+        }, {
+          label: {
+            zh: '金额(USD)',
+            en: 'Amount'
+          },
+          prop: 'signedAmount',
+          width: 136,
+          sortable: true
+        }, {
+          label: {
+            zh: '返单客户数(产生两笔订单以上的客户)',
+            en: 'Returned(Customers with two more orders)'
+          },
+          prop: 'moreOrderCustomerTotal',
+          width: 180,
+          sortable: true
+        }];
+      } else {
+        this.tableColumns = [{
+          label: {
+            zh: '客户来源',
+            en: 'Customer Source'
+          },
+          prop: 'dimensionOneValue',
+          linkKey: 'sources',
+          dataKey: 'dimensionOneId',
+          width: 120
+        }, {
+          label: {
+            zh: '创建年份',
+            en: 'Date'
+          },
+          prop: 'dimensionTwoValue',
+          linkKey: 'yearOrMonth',
+          dataKey: 'dimensionTwoValue',
+          width: 76,
+          sortable: true
+        }, {
+          label: {
+            zh: '客户数量',
+            en: 'Customer number'
+          },
+          prop: 'customerTotal',
+          width: 100,
+          sortable: true
+        }, {
+          label: {
+            zh: '总数比例/转化率(%)',
+            en: 'Proportion / Conversion(%)'
+          },
+          prop: 'cooperationRate',
+          width: 168
+        }, {
+          label: {
+            zh: '合作客户',
+            en: 'Cooperative'
+          },
+          prop: 'cooperationTotal',
+          width: 136,
+          sortable: true
+        }, {
+          label: {
+            zh: '金额(USD)',
+            en: 'Amount'
+          },
+          prop: 'signedAmount',
+          width: 136,
+          sortable: true
+        }, {
+          label: {
+            zh: '返单客户数(产生两笔订单以上的客户)',
+            en: 'Returned(Customers with two more orders)'
+          },
+          prop: 'moreOrderCustomerTotal',
+          width: 180,
+          sortable: true
+        }];
+      }
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/components/charts/channelQualityChart.vue?vue&type=script&lang=js&
+ /* harmony default export */ var charts_channelQualityChartvue_type_script_lang_js_ = (channelQualityChartvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/components/charts/channelQualityChart.vue
+
+
+
+
+
+/* normalize component */
+
+var channelQualityChart_component = normalizeComponent(
+  charts_channelQualityChartvue_type_script_lang_js_,
+  channelQualityChartvue_type_template_id_6ecbf570_scoped_true_render,
+  channelQualityChartvue_type_template_id_6ecbf570_scoped_true_staticRenderFns,
+  false,
+  null,
+  "6ecbf570",
+  null
+  
+)
+
+/* harmony default export */ var channelQualityChart = (channelQualityChart_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3c70a766-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/typeSituationChart.vue?vue&type=template&id=61bbde90&scoped=true&
+var typeSituationChartvue_type_template_id_61bbde90_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:{'summary-item': !_vm.$attrs.inDetail}},[_c('div',{staticClass:"item-content"},[(!_vm.$attrs.inDetail)?_c('div',{staticClass:"item-title"},[_vm._t("header"),_c('span',{staticClass:"ft-pingfang"},[_vm._v(" "+_vm._s(_vm.langs.title)+" ")])],2):_vm._e(),_c('div',{staticClass:"item-chart"},[_c('div',{staticClass:"w ft-chart"},[(!_vm.$attrs.inDetail)?_c('div',{staticClass:"chart-summary"},[_vm._v(" "+_vm._s(_vm.langs.statisticsTime)+"："+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.startDate))+" ~ "+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.endDate))+" "),(_vm.showDatePicker)?_c('i',{staticClass:"el-icon-date cursor m-l-5",on:{"click":function($event){return _vm.mountPicker($event, _vm.params)}}}):_vm._e()]):_vm._e(),_c('chart-dimension',{attrs:{"data":_vm.chartDimension},on:{"change":_vm.getData},model:{value:(_vm.dimension),callback:function ($$v) {_vm.dimension=$$v},expression:"dimension"}}),_c('chartTable',{ref:"chart",staticClass:"chart-table",attrs:{"data":_vm.tableData,"columns":_vm.tableColumns,"postParams":_vm.postParams}})],1)])])])}
+var typeSituationChartvue_type_template_id_61bbde90_scoped_true_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/charts/typeSituationChart.vue?vue&type=template&id=61bbde90&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/typeSituationChart.vue?vue&type=script&lang=js&
+
+
+
+
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+/* harmony default export */ var typeSituationChartvue_type_script_lang_js_ = ({
+  name: 'typeSituationChart',
+  mixins: [dateRange],
+  components: {
+    chartTable: chartTable
+  },
+  data: function data() {
+    return {
+      // 当前查询参数的克隆对象
+      postParams: {},
+      // 纬度值
+      dimension: 1,
+      // 维度选项
+      chartDimension: [{
+        text: '按来源显示',
+        value: 1,
+        lang: 'source'
+      }, {
+        text: '按员工显示',
+        value: 2,
+        lang: 'staff'
+      }, {
+        text: '按国家显示',
+        value: 3,
+        lang: 'country'
+      }, {
+        text: '按年显示',
+        value: 4,
+        lang: 'year'
+      }],
+      // 表格数据
+      tableData: [],
+      // 表格列定义
+      tableColumns: [{
+        label: {
+          zh: '来源',
+          en: 'Source'
+        },
+        prop: 'dimensionValue',
+        linkKey: 'sources',
+        dataKey: 'dimensionId',
+        width: 120,
+        sortable: true
+      }, {
+        label: {
+          zh: '类型',
+          en: 'Type'
+        },
+        prop: 'customerTypeName',
+        linkKey: 'types',
+        dataKey: 'customerType',
+        width: 76
+      }, {
+        label: {
+          zh: '占比',
+          en: 'Rate'
+        },
+        prop: 'typeRate',
+        width: 100,
+        sortable: true
+      }, {
+        label: {
+          zh: '客户数量 ',
+          en: 'Customer Total '
+        },
+        prop: 'customerTotal',
+        width: 168,
+        sortable: true
+      }, {
+        label: {
+          zh: '金额(USD)',
+          en: 'Amount'
+        },
+        prop: 'signedAmount',
+        width: 136,
+        sortable: true
+      }, {
+        label: {
+          zh: '返单客户数(产生两笔订单以上的客户)',
+          en: 'Returned(Customers with two more orders)'
+        },
+        prop: 'moreOrderCustomerTotal',
+        width: 136,
+        sortable: true
+      }],
+      observer: null
+    };
+  },
+  props: {
+    params: {}
+  },
+  computed: {
+    langs: function langs() {
+      return this.$tt('base', 'total.typeSituation');
+    }
+  },
+  mounted: function mounted() {
+    var _this = this;
+
+    this.observerOnce();
+    Object.keys(this.params).forEach(function (key) {
+      _this.$watch("params.".concat(key), _this.observerOnce);
+    });
+  },
+  watch: {
+    params: function params() {
+      this.observerOnce();
+    }
+  },
+  methods: {
+    observerOnce: function observerOnce() {
+      var _this2 = this;
+
+      if (this.observer) {
+        this.observer.unobserve(this.$el);
+        this.observer.disconnect();
+      }
+
+      this.observer = new IntersectionObserver(function () {
+        var called = false;
+        return function (entries) {
+          if (called) return;
+
+          if (entries[0].intersectionRatio > 0) {
+            called = true;
+
+            _this2.getData();
+          }
+        };
+      }());
+      this.observer.observe(this.$el);
+    },
+    getData: function getData() {
+      var _this3 = this;
+
+      var params = _objectSpread2(_objectSpread2({}, this.params), {}, {
+        dimension: this.dimension
+      });
+
+      if (params.dateRange && Array.isArray(params.dateRange)) {
+        params.startDate = params.dateRange[0];
+        params.endDate = params.dateRange[1];
+      }
+
+      this.tableData = [];
+      this.postParams = params;
+      this.switchDate(this.dimension);
+      customerApi.getTypeCondition(transferPropertyArrayToString(params)).then(function (res) {
+        _this3.tableData = res.data.map(function (it) {
+          return _objectSpread2(_objectSpread2({}, it), {}, {
+            children: it.customerTypeConditionDtoList
+          });
+        });
+      });
+    },
+    switchDate: function switchDate(type) {
+      var item = this.tableColumns[0];
+
+      if (type === 1) {
+        item.label = {
+          zh: '来源',
+          en: 'Source'
+        };
+        item.linkKey = 'sources';
+      } else if (type === 2) {
+        item.label = {
+          zh: '员工',
+          en: 'Staff'
+        };
+        item.linkKey = 'statisticsOperatorId';
+      } else if (type === 3) {
+        item.label = {
+          zh: '国家',
+          en: 'State'
+        };
+        item.linkKey = 'regions';
+      } else if (type === 4) {
+        item.label = {
+          zh: '年份',
+          en: 'Year'
+        };
+        item.linkKey = 'yearOrMonth';
+      }
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/components/charts/typeSituationChart.vue?vue&type=script&lang=js&
+ /* harmony default export */ var charts_typeSituationChartvue_type_script_lang_js_ = (typeSituationChartvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/components/charts/typeSituationChart.vue
+
+
+
+
+
+/* normalize component */
+
+var typeSituationChart_component = normalizeComponent(
+  charts_typeSituationChartvue_type_script_lang_js_,
+  typeSituationChartvue_type_template_id_61bbde90_scoped_true_render,
+  typeSituationChartvue_type_template_id_61bbde90_scoped_true_staticRenderFns,
+  false,
+  null,
+  "61bbde90",
+  null
+  
+)
+
+/* harmony default export */ var typeSituationChart = (typeSituationChart_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3c70a766-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/productManagementAnalysisChart.vue?vue&type=template&id=080a38d8&scoped=true&
+var productManagementAnalysisChartvue_type_template_id_080a38d8_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:{'summary-item': !_vm.$attrs.inDetail}},[_c('div',{staticClass:"item-content"},[(!_vm.$attrs.inDetail)?_c('div',{staticClass:"item-title"},[_vm._t("header"),_c('span',{staticClass:"ft-pingfang"},[_vm._v(" "+_vm._s(_vm.langs.title)+" ")])],2):_vm._e(),_c('div',{staticClass:"item-chart"},[_c('div',{staticClass:"w ft-chart"},[(!_vm.$attrs.inDetail)?_c('div',{staticClass:"chart-summary"},[_vm._v(" "+_vm._s(_vm.langs.statisticsTime)+"："+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.startDate))+" ~ "+_vm._s(_vm._f("timeWithoutHourSecondMinute")(_vm.params.endDate))+" "),(_vm.showDatePicker)?_c('i',{staticClass:"el-icon-date cursor m-l-5",on:{"click":function($event){return _vm.mountPicker($event, _vm.params)}}}):_vm._e()]):_vm._e(),_c('chart-dimension',{attrs:{"data":_vm.chartDimension},on:{"change":_vm.getData},model:{value:(_vm.dimension),callback:function ($$v) {_vm.dimension=$$v},expression:"dimension"}}),_c('chartTable',{ref:"chart",staticClass:"chart-table",attrs:{"data":_vm.tableData,"columns":_vm.tableColumns}})],1)])])])}
+var productManagementAnalysisChartvue_type_template_id_080a38d8_scoped_true_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/charts/productManagementAnalysisChart.vue?vue&type=template&id=080a38d8&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/charts/productManagementAnalysisChart.vue?vue&type=script&lang=js&
+
+
+
+
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+/* harmony default export */ var productManagementAnalysisChartvue_type_script_lang_js_ = ({
+  name: 'productManagementAnalysisChart',
+  mixins: [dateRange],
+  components: {
+    chartTable: chartTable
+  },
+  data: function data() {
+    return {
+      // 当前查询参数的克隆对象
+      postParams: {},
+      // 纬度值
+      dimension: 1,
+      // 维度选项
+      chartDimension: [{
+        text: '按产品编码',
+        value: 1,
+        lang: 'code'
+      }, {
+        text: '按分组',
+        value: 2,
+        lang: 'group'
+      }],
+      // 表格数据
+      tableData: [],
+      // 表格列定义
+      tableColumns: [{
+        label: {
+          zh: '产品编码',
+          en: 'productCode'
+        },
+        prop: 'productCode',
+        width: 120,
+        sortable: true
+      }, {
+        label: {
+          zh: '规格编号',
+          en: 'specCode'
+        },
+        prop: 'productSpecCode',
+        linkKey: 'productOrSpecId',
+        dataKey: 'productSpecId',
+        width: 76,
+        sortable: true
+      }, {
+        label: {
+          zh: '中文名称',
+          en: 'productNameCn'
+        },
+        prop: 'productNameCn',
+        width: 100,
+        sortable: true
+      }, {
+        label: {
+          zh: '成交金额(USD) ',
+          en: 'Signed Amount'
+        },
+        prop: 'signedAmount',
+        width: 168,
+        sortable: true
+      }, {
+        label: {
+          zh: '返单客户数 (产生两笔订单以上的客户)',
+          en: 'Returned(Customers with two more orders)'
+        },
+        prop: 'moreOrderCustomerTotal',
+        width: 136,
+        sortable: true
+      }, {
+        label: {
+          zh: '返单率(产生两笔订单以上的客户)',
+          en: 'Refund rate(Customers with two more orders)'
+        },
+        prop: 'moreOrderRate',
+        width: 136,
+        sortable: true
+      }, {
+        label: {
+          zh: '采购单价',
+          en: 'productCostPrice'
+        },
+        prop: 'productCostPrice',
+        width: 100,
+        sortable: true
+      }],
+      observer: null
+    };
+  },
+  props: {
+    params: {}
+  },
+  computed: {
+    langs: function langs() {
+      return this.$tt('base', 'total.productManagementAnalysis');
+    }
+  },
+  mounted: function mounted() {
+    var _this = this;
+
+    this.observerOnce();
+    Object.keys(this.params).forEach(function (key) {
+      _this.$watch("params.".concat(key), _this.observerOnce);
+    });
+  },
+  watch: {
+    params: function params() {
+      this.observerOnce();
+    }
+  },
+  methods: {
+    observerOnce: function observerOnce() {
+      var _this2 = this;
+
+      if (this.observer) {
+        this.observer.unobserve(this.$el);
+        this.observer.disconnect();
+      }
+
+      this.observer = new IntersectionObserver(function () {
+        var called = false;
+        return function (entries) {
+          if (called) return;
+
+          if (entries[0].intersectionRatio > 0) {
+            called = true;
+
+            _this2.getData();
+          }
+        };
+      }());
+      this.observer.observe(this.$el);
+    },
+    getData: function getData() {
+      var _this3 = this;
+
+      var params = _objectSpread2(_objectSpread2({}, this.params), {}, {
+        dimension: this.dimension
+      });
+
+      if (params.dateRange && Array.isArray(params.dateRange)) {
+        params.startDate = params.dateRange[0];
+        params.endDate = params.dateRange[1];
+      }
+
+      this.postParams = params;
+      this.switchDate(this.dimension);
+      this.tableData = [];
+
+      if (this.dimension === 2) {
+        productApi.getManageAnalyseGroup(transferPropertyArrayToString(params)).then(function (res) {
+          if (res.data) {
+            _this3.tableData = res.data.map(function (it) {
+              return _objectSpread2(_objectSpread2({}, it), {}, {
+                children: [it]
+              });
+            });
+          }
+        });
+      } else {
+        productApi.getManageAnalyseCode(transferPropertyArrayToString(params)).then(function (res) {
+          if (res.data) {
+            _this3.tableData = res.data.map(function (it) {
+              return _objectSpread2(_objectSpread2({}, it), {}, {
+                children: it.productManageAnalyseCodeDtoList.map(function (list) {
+                  list.productNameCn = it.productNameCn;
+                  return list;
+                })
+              });
+            });
+          }
+        });
+      }
+    },
+    switchDate: function switchDate(type) {
+      if (type === 2) {
+        this.tableColumns = [{
+          label: {
+            zh: '分组名称',
+            en: 'groupNameCn'
+          },
+          prop: 'groupNameCn',
+          linkKey: 'productIds',
+          dataKey: 'productIds',
+          width: 180,
+          sortable: true
+        }, {
+          label: {
+            zh: '总客户数',
+            en: 'Customer Total'
+          },
+          prop: 'customerTotal',
+          width: 100,
+          sortable: true
+        }, {
+          label: {
+            zh: '返单客户数(产生两笔订单以上的客户)',
+            en: 'Returned(Customers with two more orders)'
+          },
+          prop: 'moreOrderCustomerTotal',
+          width: 136,
+          sortable: true
+        }, {
+          label: {
+            zh: '返单率(产生两笔订单以上的客户)',
+            en: 'Refund rate(Customers with two more orders)'
+          },
+          prop: 'moreOrderRate',
+          width: 136,
+          sortable: true
+        }, {
+          label: {
+            zh: '报价次数',
+            en: 'Quote Total'
+          },
+          prop: 'quoteTotal',
+          width: 100,
+          sortable: true
+        }];
+      } else {
+        this.tableColumns = [{
+          label: {
+            zh: '产品编码',
+            en: 'productCode'
+          },
+          prop: 'productCode',
+          width: 120
+        }, {
+          label: {
+            zh: '规格编号',
+            en: 'specCode'
+          },
+          prop: 'productSpecCode',
+          linkKey: 'productOrSpecId',
+          dataKey: 'productSpecId',
+          width: 150
+        }, {
+          label: {
+            zh: '中文名称',
+            en: 'productNameCn'
+          },
+          prop: 'productNameCn',
+          width: 168
+        }, {
+          label: {
+            zh: '成交金额(USD) ',
+            en: 'Signed Amount'
+          },
+          prop: 'signedAmount',
+          width: 100,
+          sortable: true
+        }, {
+          label: {
+            zh: '返单客户数(产生两笔订单以上的客户)',
+            en: 'Returned(Customers with two more orders)'
+          },
+          prop: 'moreOrderCustomerTotal',
+          width: 100,
+          sortable: true
+        }, {
+          label: {
+            zh: '返单率(产生两笔订单以上的客户)',
+            en: 'Refund rate(Customers with two more orders)'
+          },
+          prop: 'moreOrderRate',
+          width: 100,
+          sortable: true
+        }, {
+          label: {
+            zh: '采购单价',
+            en: 'productCostPrice'
+          },
+          prop: 'productCostPrice',
+          width: 100,
+          sortable: true
+        }];
+      }
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/components/charts/productManagementAnalysisChart.vue?vue&type=script&lang=js&
+ /* harmony default export */ var charts_productManagementAnalysisChartvue_type_script_lang_js_ = (productManagementAnalysisChartvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/components/charts/productManagementAnalysisChart.vue
+
+
+
+
+
+/* normalize component */
+
+var productManagementAnalysisChart_component = normalizeComponent(
+  charts_productManagementAnalysisChartvue_type_script_lang_js_,
+  productManagementAnalysisChartvue_type_template_id_080a38d8_scoped_true_render,
+  productManagementAnalysisChartvue_type_template_id_080a38d8_scoped_true_staticRenderFns,
+  false,
+  null,
+  "080a38d8",
+  null
+  
+)
+
+/* harmony default export */ var productManagementAnalysisChart = (productManagementAnalysisChart_component.exports);
 // CONCATENATED MODULE: ./src/components/charts/index.js
 
 
@@ -20424,53 +22143,96 @@ var businessLostReasonChart_component = normalizeComponent(
  // 商机丢单原因
 
 
+
+
+
+
+var total = [{
+  component: effectiveInteractionChart,
+  name: effectiveInteractionChart.name,
+  zh: '有效互动',
+  en: 'Effective Interaction',
+  type: 'table',
+  tag: 'effectiveInteraction'
+}, {
+  component: channelQualityChart,
+  name: channelQualityChart.name,
+  zh: '渠道质量',
+  en: 'Channel Quality',
+  type: 'table',
+  tag: 'channelQuality'
+}, {
+  component: typeSituationChart,
+  name: typeSituationChart.name,
+  zh: '类型情况',
+  en: 'Type Situation',
+  type: 'table',
+  tag: 'typeSituation'
+}, {
+  component: productManagementAnalysisChart,
+  name: productManagementAnalysisChart.name,
+  zh: '产品经营分析',
+  en: 'Product Management Analysis',
+  type: 'table',
+  tag: 'productManagementAnalysis'
+}];
 var customer = [{
   component: customerDistributionChart,
   name: customerDistributionChart.name,
   // path: 'customerDistribution',
   zh: '客户分布',
   en: 'customer distribution',
-  type: 'ring'
+  type: 'ring',
+  tag: 'customerDistribution'
 }, {
   component: customerFlowStepChart,
   name: customerFlowStepChart.name,
   // path: 'followStep',
   zh: '跟进阶段',
   en: 'flow step',
-  type: 'funnel'
+  type: 'funnel',
+  tag: 'followStep'
 }, {
   component: customerOrderTrendChart,
   name: customerOrderTrendChart.name,
   // path: 'orderTrend',
   zh: '客户订单趋势',
   en: 'customer order trend',
-  type: 'line'
+  type: 'line',
+  tag: 'customerOrderTrend',
+  customerStat: true
 }, {
   component: customerActiveStateChart,
   name: customerActiveStateChart.name,
   // path: 'activeState',
   zh: '活跃状态',
   en: 'active state',
-  type: 'bar'
+  type: 'bar',
+  tag: 'activeState'
 }, {
   component: customerSourceConversionRateChart,
   name: customerSourceConversionRateChart.name,
   zh: '来源转化率',
   en: 'source conversion rate',
-  type: 'bar'
+  type: 'bar',
+  tag: 'customerSourceConversionRate'
 }, {
-  component: customerTypeChangeChart,
-  name: customerTypeChangeChart.name,
+  component: charts_customerTypeChangeChart,
+  name: charts_customerTypeChangeChart.name,
   // path: 'activeState',
   zh: '类型变动',
   en: 'type change',
-  type: 'graph'
+  type: 'graph',
+  tag: 'customerTypeChange',
+  customerStat: true
 }, {
   component: customerTransferPathChart,
   name: customerTransferPathChart.name,
   zh: '转移路径',
   en: 'transfer path',
-  type: 'graph'
+  type: 'graph',
+  tag: 'transferPath',
+  customerStat: true
 }];
 var staff = [{
   component: performanceAnalysis,
@@ -20478,38 +22240,44 @@ var staff = [{
   // path: 'performanceAnalysisDetail',
   zh: '业绩分析',
   en: 'performance analysis',
-  type: 'bar'
+  type: 'bar',
+  tag: 'performanceAnalysisDetail'
 }, {
   component: salesmanPkChart,
   name: salesmanPkChart.name,
   // path: 'salesmanPkDetail',
   zh: '员工PK',
   en: 'salesman Pk',
-  type: 'bar'
+  type: 'bar',
+  tag: 'salesmanPkDetail'
 }, {
   component: staffResourceDistributionChart,
   name: staffResourceDistributionChart.name,
   zh: '资源分布',
   en: 'resource distribution',
-  type: 'bar'
+  type: 'bar',
+  tag: 'resourceDistribution'
 }, {
   component: staffEnquiriesChat,
   name: staffEnquiriesChat.name,
   zh: '询盘时效',
   en: 'enquiries',
-  type: 'bar'
+  type: 'bar',
+  tag: 'enquiries'
 }, {
   component: staffTargetCompletionRateChart,
   name: staffTargetCompletionRateChart.name,
   zh: '目标完成率',
   en: 'target completion rate',
-  type: 'bar'
+  type: 'bar',
+  tag: 'targetCompletionRate'
 }, {
   component: staffConversionAnalysisChart,
   name: staffConversionAnalysisChart.name,
   zh: '转化分析',
   en: 'conversion analysis',
-  type: 'bar'
+  type: 'bar',
+  tag: 'conversionAnalysis'
 }];
 var mail = [{
   component: receiveTrendChart,
@@ -20517,28 +22285,33 @@ var mail = [{
   // path: 'receiveTrend',
   zh: '收发趋势',
   en: 'receive trend',
-  type: 'line'
+  type: 'line',
+  tag: 'receiveTrend',
+  customerStat: true
 }, {
   component: replyStatusChart,
   name: replyStatusChart.name,
   // path: 'replyStatus',
   zh: '回复状态',
   en: 'reply status',
-  type: 'bar'
+  type: 'bar',
+  tag: 'replyStatus'
 }, {
   component: sendTrackingChart,
   name: sendTrackingChart.name,
   // path: 'replyStatus',
   zh: '发件追踪',
   en: 'send tracking',
-  type: 'bar'
+  type: 'bar',
+  tag: 'sendTracking'
 }, {
   component: emailDistributionChart,
   name: emailDistributionChart.name,
   // path: 'replyStatus',
   zh: '邮件分布',
   en: 'email distribution',
-  type: 'funnel'
+  type: 'funnel',
+  tag: 'emailDistribution'
 }];
 var product = [{
   component: productSalesRankingChart,
@@ -20546,28 +22319,36 @@ var product = [{
   // path: '',
   zh: '销售排行',
   en: 'sales ranking',
-  type: 'line'
+  type: 'line',
+  tag: 'productSalesRanking',
+  customerStat: true
 }, {
   component: productSalesTrendChart,
   name: productSalesTrendChart.name,
   // path: '',
   zh: '销售趋势',
   en: 'sales trend',
-  type: 'line'
+  type: 'line',
+  tag: 'productSalesTrend',
+  customerStat: true
 }, {
   component: charts_productCategoryProportionChart,
   name: charts_productCategoryProportionChart.name,
   // path: '',
   zh: '类别占比',
   en: 'category proportion',
-  type: 'rings'
+  type: 'rings',
+  tag: 'productCategoryProportion',
+  customerStat: true
 }, {
   component: productQuoteRankingChart,
   name: productQuoteRankingChart.name,
   // path: '',
   zh: '报价排行',
   en: 'quote ranking',
-  type: 'line'
+  type: 'line',
+  tag: 'productQuoteRanking',
+  customerStat: true
 }];
 var quote = [{
   component: quoteDistributionChart,
@@ -20575,14 +22356,16 @@ var quote = [{
   // path: '',
   zh: '报价分布',
   en: 'quote distribution',
-  type: 'bar'
+  type: 'bar',
+  tag: 'quoteDistribution'
 }, {
   component: quoteConversionTrendChart,
   name: quoteConversionTrendChart.name,
   // path: '',
   zh: '转化分析',
   en: 'quote conversion trend',
-  type: 'line'
+  type: 'line',
+  tag: 'quoteConversionTrend'
 }];
 var order = [{
   component: orderTrendChart,
@@ -20590,21 +22373,26 @@ var order = [{
   // path: '',
   zh: '订单趋势',
   en: 'order trend',
-  type: 'line'
+  type: 'line',
+  tag: 'orderTrend',
+  customerStat: true
 }, {
   component: orderCurrencyProportionChart,
   name: orderCurrencyProportionChart.name,
   // path: '',
   zh: '币种占比',
   en: 'quote conversion trend',
-  type: 'ring'
+  type: 'ring',
+  tag: 'orderCurrencyProportion',
+  customerStat: true
 }, {
   component: orderDistributionChart,
   name: orderDistributionChart.name,
   // path: '订单分布',
   zh: '订单分布',
   en: 'order distribution',
-  type: 'bar'
+  type: 'bar',
+  tag: 'orderDistribution'
 }];
 var business = [{
   component: clueDistributionChart,
@@ -20612,42 +22400,52 @@ var business = [{
   // path: '',
   zh: '线索分布',
   en: 'clue distribution',
-  type: 'ring'
+  type: 'ring',
+  tag: 'clueDistribution',
+  customerStat: true
 }, {
   component: clueProcessTimelinessChart,
   name: clueProcessTimelinessChart.name,
   // path: '',
   zh: '线索时效处理',
   en: 'clue process timeliness',
-  type: 'bar'
+  type: 'bar',
+  tag: 'clueProcessTimeliness',
+  customerStat: true
 }, {
   component: clueTransferChart,
   name: clueTransferChart.name,
   // path: '',
   zh: '线索转化',
   en: 'clue transfer',
-  type: 'bar'
+  type: 'bar',
+  tag: 'clueTransfer'
 }, {
   component: businessStatusDistributionChart,
   name: businessStatusDistributionChart.name,
   // path: '',
   zh: '商机状态分布',
   en: 'business status distribution',
-  type: 'ring'
+  type: 'ring',
+  tag: 'businessStatusDistribution',
+  customerStat: true
 }, {
   component: businessExpectedOrderChart,
   name: businessExpectedOrderChart.name,
   // path: '',
   zh: '商机预期成单',
   en: 'business expected order',
-  type: 'bar'
+  type: 'bar',
+  tag: 'businessExpectedOrder',
+  customerStat: true
 }, {
   component: businessLostReasonChart,
   name: businessLostReasonChart.name,
   // path: '',
   zh: '商机丢单原因',
   en: 'business lost reason',
-  type: 'ring'
+  type: 'ring',
+  tag: 'businessLostReason'
 }]; // export default { activeStateChart, customerDistributionChart }
 
 /* harmony default export */ var charts = ({
@@ -20657,7 +22455,8 @@ var business = [{
   product: product,
   order: order,
   quote: quote,
-  business: business
+  business: business,
+  total: total
 });
 // CONCATENATED MODULE: ./src/components/index.js
 
@@ -20676,6 +22475,12 @@ var components = {
   chartBottomDimension: chartBottomDimension
 };
 
+Object.keys(charts).forEach(function (key) {
+  var moduleArr = charts[key];
+  moduleArr.forEach(function (module) {
+    module.path = key === 'mail' ? 'email' : key;
+  });
+});
 var components_charts = Object.values(charts).reduce(function (prev, cur) {
   prev.push.apply(prev, _toConsumableArray(cur));
   return prev;
@@ -20707,6 +22512,9 @@ var install = function install(Vue) {
 /* harmony default export */ var src_components = ({
   version: '0.1.0',
   install: install,
+  setDefaultHeight: function setDefaultHeight(height) {
+    height && (globalConfig.defaultHeight = parseInt(height) + 'px');
+  },
   charts: components_charts
 });
 

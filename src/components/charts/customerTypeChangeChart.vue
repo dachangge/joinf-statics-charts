@@ -22,7 +22,7 @@
           </div>
           <!-- <hide-button class="detail-fixed-btn" v-show="inDetail" v-model="visible"></hide-button> -->
           <div class="inner-chart-wrap">
-            <div name="customerTypeChangeChart" :style="{'height': height}" style="margin-top: 20px; width:99%;" ref="customerTypeChangeChart" v-show="visible"></div>
+            <div :style="{'height': height}" style="margin-top: 20px; width:99%;" ref="customerTypeChangeChart" v-show="visible"></div>
             <div v-show="dataShow" class="el-table__empty-block" :style="{'height': height}"><span class="el-table__empty-text">暂无数据</span></div>
           </div>
         </div>
@@ -37,6 +37,7 @@
  * 类型变动
 */
 /* eslint-disable */
+import echarts from 'echarts'
 import customerApi from 'api/customerApi'
 import screenfull from 'screenfull'
 import dateRange from './dateRange'
@@ -220,11 +221,11 @@ export default {
             this.visible = true
           }
           this.$emit('dataChange', {moduleName: 'customerTypeChangeChart', data: customerDisReportDtoList.filter(item => item.totalNumIn !== 0 || item.totalNumOut !== 0) })
-          let domArr = document.getElementsByName("customerTypeChangeChart")
-          for (let i = 0; i < domArr.length; i++) {
-            let customerTypeChangeChart = this.$echarts.init(domArr[i])
-            customerTypeChangeChart.setOption(this.option)
-          }
+          // let domArr = document.getElementsByName("customerTypeChangeChart")
+          // for (let i = 0; i < domArr.length; i++) {
+          let customerTypeChangeChart = echarts.init(this.$refs.customerTypeChangeChart)
+          customerTypeChangeChart.setOption(this.option)
+          // }
         }
       })
 

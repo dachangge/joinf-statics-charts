@@ -518,7 +518,12 @@ export default {
       */
      if (series.length === 1 && series[0].type === 'pie') {
        const ser = series[0]
-       ser.radius = [60, 130]
+       let height = Number.parseInt(this.height)
+       let scale = +(height / 400).toFixed(2)
+       let start = scale * 60
+       let end = start + 70 * scale
+       ser.radius = [start, end]
+      //  ser.radius = [60, 130]
        let data = ser.data
        if (data.length > 15) {
         let _data = data.sort((a, b) => b.value - a.value)
@@ -756,7 +761,7 @@ export default {
       /**
        * 设置滚动轴
       */
-     const needZoom = series.find(it => (it.type === 'bar' || it.type === 'line' || it.type === 'pictorialBar') && it.data.length > 7);
+     const needZoom = series.find(it => (it.type === 'bar' || it.type === 'line' || it.type === 'pictorialBar') && it.data.length > 7) || (options.xAxis && options.xAxis.find(it => it.data.length > 7));
      if (needZoom) {
        options.dataZoom = [{
         type: 'slider',

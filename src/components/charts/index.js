@@ -74,6 +74,48 @@ import businessExpectedOrderChart from '@/components/charts/businessExpectedOrde
 // 商机丢单原因
 import businessLostReasonChart from '@/components/charts/businessLostReasonChart.vue'
 
+import effectiveInteractionChart from '@/components/charts/effectiveInteractionChart.vue'
+
+import channelQualityChart from '@/components/charts/channelQualityChart'
+
+import typeSituationChart from '@/components/charts/typeSituationChart'
+import productManagementAnalysisChart from '@/components/charts/productManagementAnalysisChart'
+
+const total = [
+  {
+    component: effectiveInteractionChart,
+    name: effectiveInteractionChart.name,
+    zh: '有效互动',
+    en: 'Effective Interaction',
+    type: 'table',
+    tag: 'effectiveInteraction'
+  },
+  {
+    component: channelQualityChart,
+    name: channelQualityChart.name,
+    zh: '渠道质量',
+    en: 'Channel Quality',
+    type: 'table',
+    tag: 'channelQuality'
+  },
+  {
+    component: typeSituationChart,
+    name: typeSituationChart.name,
+    zh: '类型情况',
+    en: 'Type Situation',
+    type: 'table',
+    tag: 'typeSituation'
+  },
+  {
+    component: productManagementAnalysisChart,
+    name: productManagementAnalysisChart.name,
+    zh: '产品经营分析',
+    en: 'Product Management Analysis',
+    type: 'table',
+    tag: 'productManagementAnalysis'
+  }
+]
+
 const customer = [
   {
     component: customerDistributionChart,
@@ -81,7 +123,8 @@ const customer = [
     // path: 'customerDistribution',
     zh: '客户分布',
     en: 'customer distribution',
-    type: 'ring'
+    type: 'ring',
+    tag: 'customerDistribution'
   },
   {
     component: flowStepChart,
@@ -89,7 +132,8 @@ const customer = [
     // path: 'followStep',
     zh: '跟进阶段',
     en: 'flow step',
-    type: 'funnel'
+    type: 'funnel',
+    tag: 'followStep'
   },
   {
     component: customerOrderTrendChart,
@@ -97,7 +141,9 @@ const customer = [
     // path: 'orderTrend',
     zh: '客户订单趋势',
     en: 'customer order trend',
-    type: 'line'
+    type: 'line',
+    tag: 'customerOrderTrend',
+    customerStat: true
   },
   {
     component: activeStateChart,
@@ -105,14 +151,16 @@ const customer = [
     // path: 'activeState',
     zh: '活跃状态',
     en: 'active state',
-    type: 'bar'
+    type: 'bar',
+    tag: 'activeState'
   },
   {
     component: customerSourceConversionRateChart,
     name: customerSourceConversionRateChart.name,
     zh: '来源转化率',
     en: 'source conversion rate',
-    type: 'bar'
+    type: 'bar',
+    tag: 'customerSourceConversionRate'
   },
   {
     component: customerTypeChangeChart,
@@ -120,14 +168,18 @@ const customer = [
     // path: 'activeState',
     zh: '类型变动',
     en: 'type change',
-    type: 'graph'
+    type: 'graph',
+    tag: 'customerTypeChange',
+    customerStat: true
   },
   {
     component: customerTransferPathChart,
     name: customerTransferPathChart.name,
     zh: '转移路径',
     en: 'transfer path',
-    type: 'graph'
+    type: 'graph',
+    tag: 'transferPath',
+    customerStat: true
   }
 ]
 
@@ -138,7 +190,8 @@ const staff = [
     // path: 'performanceAnalysisDetail',
     zh: '业绩分析',
     en: 'performance analysis',
-    type: 'bar'
+    type: 'bar',
+    tag: 'performanceAnalysisDetail'
   },
   {
     component: salesmanPkChart,
@@ -146,21 +199,24 @@ const staff = [
     // path: 'salesmanPkDetail',
     zh: '员工PK',
     en: 'salesman Pk',
-    type: 'bar'
+    type: 'bar',
+    tag: 'salesmanPkDetail'
   },
   {
     component: staffResourceDistributionChart,
     name: staffResourceDistributionChart.name,
     zh: '资源分布',
     en: 'resource distribution',
-    type: 'bar'
+    type: 'bar',
+    tag: 'resourceDistribution'
   },
   {
     component: staffEnquiriesChat,
     name: staffEnquiriesChat.name,
     zh: '询盘时效',
     en: 'enquiries',
-    type: 'bar'
+    type: 'bar',
+    tag: 'enquiries'
   },
   {
     component: staffTargetCompletionRateChart,
@@ -168,13 +224,15 @@ const staff = [
     zh: '目标完成率',
     en: 'target completion rate',
     type: 'bar',
+    tag: 'targetCompletionRate'
   },
   {
     component: staffConversionAnalysisChart,
     name: staffConversionAnalysisChart.name,
     zh: '转化分析',
     en: 'conversion analysis',
-    type: 'bar'
+    type: 'bar',
+    tag: 'conversionAnalysis'
   }
 ]
 
@@ -185,7 +243,9 @@ const mail = [
     // path: 'receiveTrend',
     zh: '收发趋势',
     en: 'receive trend',
-    type: 'line'
+    type: 'line',
+    tag: 'receiveTrend',
+    customerStat: true
   },
   {
     component: replyStatusChart,
@@ -193,7 +253,8 @@ const mail = [
     // path: 'replyStatus',
     zh: '回复状态',
     en: 'reply status',
-    type: 'bar'
+    type: 'bar',
+    tag: 'replyStatus'
   },
   {
     component: sendTrackingChart,
@@ -201,7 +262,8 @@ const mail = [
     // path: 'replyStatus',
     zh: '发件追踪',
     en: 'send tracking',
-    type: 'bar'
+    type: 'bar',
+    tag: 'sendTracking'
   },
   {
     component: emailDistributionChart,
@@ -209,7 +271,8 @@ const mail = [
     // path: 'replyStatus',
     zh: '邮件分布',
     en: 'email distribution',
-    type: 'funnel'
+    type: 'funnel',
+    tag: 'emailDistribution'
   }
 ]
 
@@ -220,7 +283,9 @@ const product = [
     // path: '',
     zh: '销售排行',
     en: 'sales ranking',
-    type: 'line'
+    type: 'line',
+    tag: 'productSalesRanking',
+    customerStat: true
   },
   {
     component: productSalesTrendChart,
@@ -228,7 +293,9 @@ const product = [
     // path: '',
     zh: '销售趋势',
     en: 'sales trend',
-    type: 'line'
+    type: 'line',
+    tag: 'productSalesTrend',
+    customerStat: true
   },
   {
     component: productCategoryProportionChart,
@@ -236,7 +303,9 @@ const product = [
     // path: '',
     zh: '类别占比',
     en: 'category proportion',
-    type: 'rings'
+    type: 'rings',
+    tag: 'productCategoryProportion',
+    customerStat: true
   },
   {
     component: productQuoteRankingChart,
@@ -244,7 +313,9 @@ const product = [
     // path: '',
     zh: '报价排行',
     en: 'quote ranking',
-    type: 'line'
+    type: 'line',
+    tag: 'productQuoteRanking',
+    customerStat: true
   },
 ]
 const quote = [
@@ -254,7 +325,8 @@ const quote = [
     // path: '',
     zh: '报价分布',
     en: 'quote distribution',
-    type: 'bar'
+    type: 'bar',
+    tag: 'quoteDistribution'
   },
   {
     component: quoteConversionTrendChart,
@@ -262,7 +334,8 @@ const quote = [
     // path: '',
     zh: '转化分析',
     en: 'quote conversion trend',
-    type: 'line'
+    type: 'line',
+    tag: 'quoteConversionTrend'
   }
 ]
 
@@ -273,7 +346,9 @@ const order = [
     // path: '',
     zh: '订单趋势',
     en: 'order trend',
-    type: 'line'
+    type: 'line',
+    tag: 'orderTrend',
+    customerStat: true
   },
   {
     component: orderCurrencyProportionChart,
@@ -281,7 +356,9 @@ const order = [
     // path: '',
     zh: '币种占比',
     en: 'quote conversion trend',
-    type: 'ring'
+    type: 'ring',
+    tag: 'orderCurrencyProportion',
+    customerStat: true
   },
   {
     component: orderDistributionChart,
@@ -289,7 +366,8 @@ const order = [
     // path: '订单分布',
     zh: '订单分布',
     en: 'order distribution',
-    type: 'bar'
+    type: 'bar',
+    tag: 'orderDistribution'
   }
 ]
 
@@ -300,7 +378,9 @@ const business = [
     // path: '',
     zh: '线索分布',
     en: 'clue distribution',
-    type: 'ring'
+    type: 'ring',
+    tag: 'clueDistribution',
+    customerStat: true
   },
   {
     component: clueProcessTimelinessChart,
@@ -308,7 +388,9 @@ const business = [
     // path: '',
     zh: '线索时效处理',
     en: 'clue process timeliness',
-    type: 'bar'
+    type: 'bar',
+    tag: 'clueProcessTimeliness',
+    customerStat: true
   },
   {
     component: clueTransferChart,
@@ -316,7 +398,8 @@ const business = [
     // path: '',
     zh: '线索转化',
     en: 'clue transfer',
-    type: 'bar'
+    type: 'bar',
+    tag: 'clueTransfer'
   },
   {
     component: businessStatusDistributionChart,
@@ -324,7 +407,9 @@ const business = [
     // path: '',
     zh: '商机状态分布',
     en: 'business status distribution',
-    type: 'ring'
+    type: 'ring',
+    tag: 'businessStatusDistribution',
+    customerStat: true
   },
   {
     component: businessExpectedOrderChart,
@@ -332,7 +417,9 @@ const business = [
     // path: '',
     zh: '商机预期成单',
     en: 'business expected order',
-    type: 'bar'
+    type: 'bar',
+    tag: 'businessExpectedOrder',
+    customerStat: true
   },
   {
     component: businessLostReasonChart,
@@ -340,11 +427,12 @@ const business = [
     // path: '',
     zh: '商机丢单原因',
     en: 'business lost reason',
-    type: 'ring'
+    type: 'ring',
+    tag: 'businessLostReason'
   }
 ]
 
 // export default { activeStateChart, customerDistributionChart }
 export default {
-  customer, mail, staff, product, order, quote, business
+  customer, mail, staff, product, order, quote, business, total
 }

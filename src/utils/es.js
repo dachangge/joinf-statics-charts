@@ -49,4 +49,8 @@ function arrayTopNum(data, num) {
   return arr;
 }
 
-export { transferPropertyArrayToString, getStringEllipsis, arrayTopNum };
+function cloneDeep(v) {
+  return JSON.parse(JSON.stringify(v));
+}
+
+export { transferPropertyArrayToString, getStringEllipsis, arrayTopNum, cloneDeep };

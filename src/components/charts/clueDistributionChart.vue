@@ -25,7 +25,7 @@
           <!-- <chart-type-switch :style="{right: dimension === 7 ? '290px' : '90px'}" class="detail-fixed-switch" v-show="inDetail && visible" :chart="chartIns" :types="['histogram', 'line', 'ring']" :currentType="settings.type"></chart-type-switch> -->
           <chart-dimension v-if="visible" :data="chartDimension" v-model="dimension">
           </chart-dimension>
-          <hide-button class="detail-fixed-btn" v-show="inDetail" v-model="visible"></hide-button>
+          <!-- <hide-button class="detail-fixed-btn" v-show="inDetail" v-model="visible"></hide-button> -->
           <chart :legend="legend" v-show="visible" ref="chart" :dataFn="dataFn" :showChart="visible" :settings="settings"></chart>
         </div>
       </div>

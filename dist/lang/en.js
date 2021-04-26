@@ -31,6 +31,7 @@ export default {
     product: 'Product',
     order: 'Order',
     quote: 'Quote',
+    totalM: 'Total',
     filter: 'Filter',
     condition: 'Condition',
     public: 'Public',
@@ -107,6 +108,12 @@ export default {
     plsEnterKey: 'Please enter key words',
     plsEnterKeyFilter: 'Please input keywords to filter',
     tagTips: 'The administrator can not view other customers tags', // 管理员查看不了他人客户标签
+    intervalDays: 'Interval days', // 间隔天数
+    intervalDaysTips: 'Only the number of days from the signed customer to the query date without signing the order is counted', // 仅统计已经签单的客户至查询日期内未签单的天数
+    finishedNum: 'Finished num', // 完成数量
+    unfinishedNum: 'Unfinished num', // 未完成数量
+    finishingRate: 'Finishing rate',
+    above: 'Above', // 以上
   },
   // 图表的维度
   chartDimension: {
@@ -135,6 +142,7 @@ export default {
     grades: 'Grades', // 等级
     mainProducts: 'MainProducts', // 主营产品
     intercourseMail: 'Intercourse Mail', // 往来邮件
+    intercourseMailNum: 'Intercourse mail num', // 往来邮件
     overallTrend: 'Overall trend', // 整体趋势
     noContact: 'No contact', // 未联系
     contacted: 'contacted', // 已联系
@@ -149,7 +157,7 @@ export default {
     amountUSD: 'Amount(USD)', // 金额(USD)
     saleAmountUSD: 'sale amount(USD)',
     quoteTimes: 'Number of quotations', // 报价次数
-    amountRMB: 'Amount(RMB)',
+    amountRMB: 'Amount(CNY)',
     regionName: 'Country/regions', // 国家/地区
     averageUnitPriceUSD: 'Average Unit Price(USD)', // 平均单价（USD)
     enterprise: 'Enterprise', // 企业
@@ -157,7 +165,9 @@ export default {
     other: 'Other', // 其他
     transferType: 'transfer type',
     customerTags: 'Customer Tags', // 客户标签
-    customerTagsNumber: 'Customer Tag Number'
+    customerTagsNumber: 'Customer Tag Number',
+    businessType: '业务类型',
+    source: 'source',
   },
   customer: {
     customerSummary: 'Summary',
@@ -222,8 +232,8 @@ export default {
       order: 'order',
       quantity: 'quantity',
       orderAmountUSD: 'amount（USD）',
-      orderAmountRMB: 'amount（RMB）',
-      orderAmountUSDWRMB: 'amount(USD/RMB)',
+      orderAmountRMB: 'amount（CNY）',
+      orderAmountUSDWRMB: 'amount(USD/CNY)',
       salesman: 'salesman',
       customerCount: 'Total',
       newCount: 'New',
@@ -345,7 +355,8 @@ export default {
       header: 'header',
       systemFixedHeader: 'system fixed header',
       saveSuccess: 'save success',
-      max12: 'Only 12 charts are supported, please delete.'
+      max12: 'Only 12 charts are supported, please delete.',
+      total: 'total'
     }
   },
   showSetting: {
@@ -383,6 +394,56 @@ export default {
     },
     businessOrderPeriod: {
       title: '商机成单周期'
+    }
+  },
+  total: {
+    effectiveInteraction: {
+      title: 'Effective Interaction'
+    },
+    channelQuality: {
+      title: 'Channel Quality'
+    },
+    typeSituation: {
+      title: 'Type and situation'
+    },
+    productManagementAnalysis: {
+      title: 'Product Management Analysis'
+    }
+  },
+  performance: {
+    base: {
+      spread: 'spread',
+      fold: 'fold',
+      prevStep: 'prev step',
+      nextStep: 'next step'
+    },
+    rule: {
+      yearTarget: 'full-year target',
+      completed: 'completed',
+      progress: 'progress',
+      edit: 'edit',
+      createRule: 'Create Performance Rules',
+    },
+    add: {
+      performanceName: 'Performance name',
+      plsSet: 'Please set',
+      plsSetName: 'Please enter name',
+      ruleDesc: 'Rule description/slogan',
+      descDemo: 'E.g. Keep up the good work and create more glory',
+      selectExamination: 'Please select one item for the examination',
+      isSetContent: 'Whether to set the assessment content',
+      yes: 'Yes',
+      no: 'No',
+      examinationRule: 'Assessment conditions are included in the rules',
+      meetAll: 'Meet all the above Settings included in the rules',
+      meetOne: 'Any of the above conditions can be included in the rule',
+      includeTime: 'Include time',
+      createTime: 'Create time'
+    },
+    progress: {
+      step1: 'Create Performance Rules',
+      step2: 'Set performance target values',
+      step3: 'Set completion to view performance completion'
     }
   }
 }
