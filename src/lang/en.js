@@ -1,5 +1,7 @@
 export default {
   base: {
+    noData: 'No Data',
+    scrollToBottom: 'Scroll To Bottom',
     totalClue: 'total clue',
     clue: 'clue',
     time: 'time',
@@ -62,6 +64,7 @@ export default {
     pending: 'Pending', // 待批
     implement: 'Implement', // 执行
     complete: 'Complete', // 完成
+    notComplete: 'Not Complete',
     termination: 'Termination', // 终止
     potentialCustomers: 'Potential customers', // 潜在客户数
     customersNums: 'Customers Number', // 客户数量
@@ -108,12 +111,13 @@ export default {
     plsEnterKey: 'Please enter key words',
     plsEnterKeyFilter: 'Please input keywords to filter',
     tagTips: 'The administrator can not view other customers tags', // 管理员查看不了他人客户标签
-    intervalDays: 'Interval days', // 间隔天数
+    intervalDays: 'Interval', // 间隔天数
     intervalDaysTips: 'Only the number of days from the signed customer to the query date without signing the order is counted', // 仅统计已经签单的客户至查询日期内未签单的天数
     finishedNum: 'Finished num', // 完成数量
     unfinishedNum: 'Unfinished num', // 未完成数量
     finishingRate: 'Finishing rate',
-    above: 'Above', // 以上
+    above: 'Above', //
+    customerNoOrder: 'Non completion'
   },
   // 图表的维度
   chartDimension: {
@@ -166,8 +170,13 @@ export default {
     transferType: 'transfer type',
     customerTags: 'Customer Tags', // 客户标签
     customerTagsNumber: 'Customer Tag Number',
-    businessType: '业务类型',
-    source: 'source',
+    businessType: 'Business Type',
+    source: 'Source',
+    year: 'Year',
+    month: 'Month',
+    country: 'Country',
+    code: 'Code',
+    group: 'Group',
   },
   customer: {
     customerSummary: 'Summary',
@@ -394,6 +403,9 @@ export default {
     },
     businessOrderPeriod: {
       title: '商机成单周期'
+    },
+    businessFollowStep: {
+      title: 'Business Follow Step'
     }
   },
   total: {
@@ -415,14 +427,22 @@ export default {
       spread: 'spread',
       fold: 'fold',
       prevStep: 'prev step',
-      nextStep: 'next step'
+      nextStep: 'next step',
+      target: 'taget ',
+      complete: 'complete ',
+      amount: 'amount',
+      number: 'number'
     },
     rule: {
+      completeTarget: 'completeTarget',
+      createTime: 'createTime',
+      examiner: 'examiner',
       yearTarget: 'full-year target',
       completed: 'completed',
       progress: 'progress',
       edit: 'edit',
       createRule: 'Create Performance Rules',
+      view: 'view'
     },
     add: {
       performanceName: 'Performance name',

@@ -73,6 +73,8 @@ import businessStatusDistributionChart from '@/components/charts/businessStatusD
 import businessExpectedOrderChart from '@/components/charts/businessExpectedOrderChart.vue'
 // 商机丢单原因
 import businessLostReasonChart from '@/components/charts/businessLostReasonChart.vue'
+// 商机跟进阶段
+import businessFollowStepChart from '@/components/charts/businessFollowStepChart.vue'
 
 import effectiveInteractionChart from '@/components/charts/effectiveInteractionChart.vue'
 
@@ -429,6 +431,14 @@ const business = [
     en: 'business lost reason',
     type: 'ring',
     tag: 'businessLostReason'
+  },
+  {
+    component: businessFollowStepChart,
+    name: businessFollowStepChart.name,
+    zh: '商机跟进阶段',
+    en: 'business follow setp',
+    type: 'funnel',
+    tag: 'businessFollowStep'
   }
 ]
 

@@ -48,10 +48,6 @@ export default {
     data() {
         return {
             chartDimension: [{
-                text: '员工',
-                value: 1,
-                lang: 'staff'
-            }, {
                 text: '类型',
                 value: 3,
                 lang: 'types',
@@ -94,7 +90,7 @@ export default {
                     dimensionValue: '日期'
                 }
             },
-            dimension: 1, // 维度 id
+            dimension: 3, // 维度 id
             // 克隆对象
             postParams: {},
             totalNum: 0,

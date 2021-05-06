@@ -70,10 +70,6 @@ export default {
       //  }
       // },
       chartDimension: [{
-        text: '员工',
-        value: 1,
-        lang: 'staff'
-      }, {
         text: '国家/地区',
         value: 2,
         lang: 'regions',
@@ -117,7 +113,7 @@ export default {
         offsetY: '45%',
         notBarAxis: true,
       },
-      dimension: 1, // 维度 id
+      dimension: 2, // 维度 id
       filterParams: {},
       totalNum: 0,
       // 克隆对象

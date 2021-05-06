@@ -1,5 +1,7 @@
 export default {
   base: {
+    noData: '暂无数据',
+    scrollToBottom: '到底了',
     totalClue: '总线索数',
     clue: '线索',
     time: '时间',
@@ -62,6 +64,7 @@ export default {
     pending: '待批',
     implement: '执行',
     complete: '完成',
+    notComplete: '未完成',
     termination: '终止',
     potentialCustomers: '潜在客户数',
     customersNums: '客户数量',
@@ -114,6 +117,7 @@ export default {
     unfinishedNum: '未完成数量',
     finishingRate: '完成率',
     above: '以上',
+    customerNoOrder: '未成单情况'
   },
   // 图表的维度
   chartDimension: {
@@ -168,6 +172,11 @@ export default {
     customerTagsNumber: '标签数量',
     businessType: '业务类型',
     source: '来源',
+    year: '年显示',
+    month: '月显示',
+    country: '国家显示',
+    code: '产品编码',
+    group: '分组',
   },
   customer: {
     customerSummary: '客户汇总',
@@ -395,6 +404,9 @@ export default {
     },
     businessOrderPeriod: {
       title: '商机成单周期'
+    },
+    businessFollowStep: {
+      title: '商机跟进阶段'
     }
   },
   total: {
@@ -416,14 +428,22 @@ export default {
       spread: '展开',
       fold: '收起',
       prevStep: '上一步',
-      nextStep: '下一步'
+      nextStep: '下一步',
+      target: '目标',
+      complete: '完成',
+      amount: '金额',
+      number: '数量'
     },
     rule: {
+      completeTarget: '完成目标',
+      createTime: '创建时间',
+      examiner: '考核人员',
       yearTarget: '全年目标',
       completed: '已完成',
       progress: '进度',
       edit: '编辑',
       createRule: '新建绩效规则',
+      view: '查看'
       // Create Performance Rules
     },
     add: {

@@ -44,10 +44,6 @@ export default {
   data() {
     return {
       chartDimension: [{
-        text: '业务员',
-        value: 1,
-        lang: 'operatorName'
-      }, {
         text: '国家地区',
         value: 2,
         lang: 'regionName',
@@ -81,7 +77,7 @@ export default {
         axisSite: { right: ['数量'] },
         showLine: ['数量']
       },
-      dimension: 1, // 维度 id
+      dimension: 2, // 维度 id
       filterParams: {},
       totalNum: 0,
       leftMax: 0,
