@@ -1,5 +1,5 @@
 /*
- * @FilePath: /joinf-statistics-vuejs/src/api/businessApi.js
+ * @module: /joinf-tms-statics-charts/src/api/businessApi.js
  * @description: 商机模块 api
  * @author: 万焕昌 <1109923832@qq.com>
  * @time: 2020-11-20 10:43:32 Friday
@@ -60,6 +60,14 @@ export default {
    */
   getBusinessExpectedOrder(params) {
     return axios.get('b/business/expectedOrder', { params })
+  },
+  /**
+   * @description: 商机--商机状态-漏斗
+   * @author: 万焕昌 <11******32@qq.com>
+   * @time: 2021-04-30 13:14:40 Friday
+   * @param {*} params
+   */
+  getBusinessStatusFunnel(params) {
+    return axios.get('b/business/staBusinessStatusFunnel', { params })
   }
-
 }
