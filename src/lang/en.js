@@ -1,5 +1,16 @@
 export default {
   base: {
+    mailSending: 'mail send',
+    mailCollection: 'mail collect',
+    clickTagUnread: 'Click on the mark unread',
+    clickTagRead: 'Click mark read',
+    subject: 'subject',
+    fromMail: 'fromMail',
+    recipients: 'recipients',
+    editRule: 'Edit rule',
+    prompt: 'prompt',
+    deletePrompt: 'Do you want to delete?',
+    delete: 'delete',
     noData: 'No Data',
     scrollToBottom: 'Scroll To Bottom',
     totalClue: 'total clue',
@@ -49,6 +60,8 @@ export default {
     statisticsTime: 'statistics time',
     cancel: 'Cancel', // 取消
     confirm: 'Confirm', // 确认
+    cancel1: 'Cancel',
+    confirm1: 'Confirm',
     reset: 'Reset', // 重置
     viewDetails: 'view details',
     addToCockpit: 'add to cockpit',
@@ -80,6 +93,7 @@ export default {
     viewScope: 'View scope', // 查看范围
     dataRanges: 'Data ranges', // 数据范围
     folloStep: 'Follow step', // 跟进阶段
+    folloStep1: 'Sale step', // 销售阶段
     ourReply: 'Our replys', // 我方回复数
     otherReply: 'Other replys', // 对方回复数
     otherReplyRate: 'Other replys rate', // 对方回复率
@@ -205,6 +219,11 @@ export default {
   },
   staff: {
     staffSummary: 'staff summary',
+    followStatic: {
+      staffFollowStatic: 'staff follow static',
+      notContacted: 'no contacted customers',
+      contacted: 'contacted customers'
+    },
     performance: {
       performanceAnalysis: 'performance analysis',
       targetAmount: 'targetAmount',
@@ -259,7 +278,35 @@ export default {
       dimensionDesc2: 'No statistics for sending failure',
       permisiontooltip: 'You can only view the data within the management authority',
       followTooltip1: 'The amount of follow-up does not depend on the customer, and the number of follow-up counts in the number of times.',
-      followTooltip2: 'Follow up only statistics of completed follow up, not statistics of cooperative follow up.'
+      followTooltip2: 'Follow up only statistics of completed follow up, not statistics of cooperative follow up.',
+      receivedMerged: 'Received Merged',
+      receivedNotMerged: 'Received Not Merged',
+      sendMerged: 'Send Merged',
+      sendNotMerged: 'Send Not Merged',
+      totalSingleShotContact: 'total Single Shot Contact',
+      unread: 'Unread',
+      noReply: 'NoReply',
+      needlessReply: 'Needless Reply',
+      replied: 'Replied',
+      replyRate: 'Reply Rate',
+      totalMass: 'Total Mass',
+      totalMassAddress: 'Total Mass Address',
+      totalMassSuccess: 'Total Mass Success',
+      customerNumOpera: 'Customer Number',
+      customerNumPub: 'New customer',
+      customerNum: 'New customer',
+      unContact: 'Unconnected 30 days',
+      uncontactNum: 'Unconnected',
+      transferCustomerNumPub: 'Transfer Customer Number ',
+      transferCustomerNum: 'Transfer Customer',
+      sendNum: 'Send',
+      reciveNum: 'Recive',
+      edmCount: 'EDM',
+      followUpNum: 'Follow Up',
+      quoteNum: 'Quote',
+      orderNum: 'Order',
+      orderProductNum: 'Order Product',
+      orderAmt: 'Order Amt',
     },
     targetCompleteRate: {
       targetCompleteRate: 'target complete rate',
@@ -371,7 +418,9 @@ export default {
   showSetting: {
     showSetting: 'show setting',
     searchCriteriaSorting: 'Search criteria sorting',
+    showTableSetting: 'Table Setting',
     titleNote: 'Note: Drag sort',
+    titleNote2: '(The configuration fields are displayed in the table from top to bottom)',
     dateRange: 'select Date'
   },
   business: {
@@ -423,6 +472,18 @@ export default {
     }
   },
   performance: {
+    timeline: {
+      times: 'times',
+      Quota: 'Quota',
+      Delivery: 'Delivery',
+      Opened: 'Opened',
+      Clicked: 'Clicked',
+      Business: 'Business',
+      Follow: 'Follow',
+      Order: 'Order',
+      EmailHair: 'Email / Hair',
+      Quote: 'Quote'
+    },
     base: {
       spread: 'spread',
       fold: 'fold',
@@ -431,7 +492,8 @@ export default {
       target: 'taget ',
       complete: 'complete ',
       amount: 'amount',
-      number: 'number'
+      number: 'number',
+      limit10: 'Please enter the integer of less than 10 digits'
     },
     rule: {
       completeTarget: 'completeTarget',
@@ -448,6 +510,7 @@ export default {
       performanceName: 'Performance name',
       plsSet: 'Please set',
       plsSetName: 'Please enter name',
+      plsSetNameRepeated: 'The name cannot be repeated',
       ruleDesc: 'Rule description/slogan',
       descDemo: 'E.g. Keep up the good work and create more glory',
       selectExamination: 'Please select one item for the examination',

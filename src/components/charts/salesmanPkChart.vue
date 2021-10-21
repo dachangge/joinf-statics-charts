@@ -19,14 +19,21 @@
             {{langs.statisticsTime}}：{{params.startDate}} ~ {{params.endDate}}
             <i v-if="showDatePicker" class="el-icon-date cursor m-l-5" @click="mountPicker($event, params)"></i>
           </div>
-          <!-- <chart-type-switch class="detail-fixed-switch" v-show="inDetail && visible" :chart="chartIns" :types="['histogram', 'line']" :currentType="settings.type"></chart-type-switch> -->
+        <!-- <chart-type-switch class="detail-fixed-switch" v-show="inDetail && visible" :chart="chartIns" :types="['histogram', 'line']" :currentType="settings.type"></chart-type-switch> -->
           <!-- <hide-button class="detail-fixed-btn" v-show="inDetail" v-model="visible"></hide-button> -->
           <div v-show="visible">
             <chart-dimension :data="chartDimension" v-model="dimension">
+              <!-- <div class="desc-info" v-show="dimension === 2">
+                {{langs.dimensionDesc1}}
+              </div>
+              <div class="desc-info" v-show="dimension === 3">
+                <icon type="icon_question" color="#6C9AE7" style="margin: -3px 4px 0 0"></icon>
+                {{langs.dimensionDesc2}}
+              </div> -->
             </chart-dimension>
-            <!-- <el-tooltip :append-to-body="false" ref="tooltip" placement="top" v-show="dimension === 2 || dimension === 3"  :content="dimension === 2 ? langs.dimensionDesc1 : langs.dimensionDesc2">
+            <el-tooltip :append-to-body="false" ref="tooltip" placement="top" v-show="dimension === 2 || dimension === 3"  :content="dimension === 2 ? langs.dimensionDesc1 : langs.dimensionDesc2">
               <icon  type="icon_question" color="#6C9AE7" :style="{right: inDetail ? '100px' : 0, top: inDetail ? '30px' : '40px'}" style="position: absolute;"></icon>
-            </el-tooltip> -->
+            </el-tooltip>
             <chart ref="chart" :dataFn="dataFn" :showChart="visible" :settings="settings"></chart>
           </div>
         </div>
@@ -90,10 +97,7 @@ export default {
         value: 5,
         lang: 'order' 
       }],
-      settings: {
-        type: 'histogram',
-        yAxisName: ['数量']
-      },
+      settings: {},
       // params 克隆对象
       postParams: {}
     }
@@ -104,6 +108,11 @@ export default {
   created() {
     if (this.params.dimension) this.dimension = this.params.dimension
     // console.error(this.params)
+    this.settings = {
+      type: 'histogram',
+      stack: {'收件': [this.langs.receivedNotMerged, this.langs.receivedMerged, this.langs.reciveNum], '发件': [this.langs.sendNotMerged, this.langs.sendMerged, this.langs.sendNum]},
+      yAxisName: ['数量']
+    }
     this.settings.yAxisName = [ this.langs.quantity ]
     Object.keys(this.params).forEach(key => {
       this.$watch(`params.${key}`, () => {
@@ -137,6 +146,7 @@ export default {
           params.orderStatus = this.params.orderStatus.join(',')
         }
         return staffApi.getEmployeesPk(params).then(res => {
+          res.data = res.data.filter(it => it.operatorName)
           this.toalResult = res.data
           this.$emit('dataChange', {
             data: res.data
@@ -151,7 +161,7 @@ export default {
       if (this.dimension === 5) {
         // this.settings = {
           // type: 'histogram',
-          // axisSite: { right: ['订单金额（USD）', '订单金额（RMB）'] },
+          // axisSite: { right: ['订单金额（USD）', '订单金额（CNY）'] },
           this.settings.axisSite = { right: [ this.langs.orderAmountUSD, this.langs.orderAmountRMB ] }
           // yAxisName: ['数量', '金额']
           this.settings.yAxisName = [ this.langs.quantity, this.langs.amount]
@@ -179,16 +189,31 @@ export default {
           })
         }
       } else if (this.dimension === 2) {
+        let columnsArr = [
+          this.langs.salesman,
+          this.langs.receivedNotMerged, 
+          this.langs.receivedMerged, 
+          this.langs.reciveNum, 
+          this.langs.sendNotMerged, 
+          this.langs.sendMerged, 
+          this.langs.sendNum
+        ] 
+        let arr = this.toalResult.map(it => {
+          return {
+            [this.langs.salesman]: it.operatorName,
+            [this.langs.receivedMerged]: it.receivedNotMerged,
+            [this.langs.receivedNotMerged]: it.receivedMerged,
+            [this.langs.reciveNum]: it.receivedNotMerged + it.receivedMerged,
+            [this.langs.sendMerged]: it.sendNotMerged,
+            [this.langs.sendNotMerged]: it.sendMerged,
+            [this.langs.sendNum]: it.sendNotMerged + it.sendMerged
+          }
+        })
         return {
           // columns: ['业务员', '发件数', '收件数'],
-          columns: [this.langs.salesman, this.langs.sentCount, this.langs.receivedCount],
-          rows: this.toalResult.map(it => {
-            return {
-              [this.langs.salesman]: it.operatorName,
-              [this.langs.sentCount]: it.sendNum,
-              [this.langs.receivedCount]: it.reciveNum,
-            }
-          })
+          // columns: [this.langs.salesman, this.langs.sentCount, this.langs.receivedCount],
+          columns: columnsArr,
+          rows: arr
         }
       } else if (this.dimension === 3) {
         return {
@@ -214,7 +239,7 @@ export default {
         }
       } else if (this.dimension === 5) {
         return {
-          // columns: ['业务员', '订单数量', '订单金额（USD）', '订单金额（RMB）'],
+          // columns: ['业务员', '订单数量', '订单金额（USD）', '订单金额（CNY）'],
           columns: [this.langs.salesman, this.langs.orderCount, this.langs.orderProductCount, this.langs.orderAmountUSD, this.langs.orderAmountRMB],
           rows: this.toalResult.map(it => {
             return {
@@ -234,10 +259,16 @@ export default {
   },
   watch: {
     'dimension'() {
+      this.$emit('getDimension')
       this.refresh();
     },
     // 多语言重新加载图表
     '$i18n.locale'(val) {
+      this.settings = {
+        type: 'histogram',
+        stack: {'收件': [this.langs.receivedNotMerged, this.langs.receivedMerged, this.langs.reciveNum], '发件': [this.langs.sendNotMerged, this.langs.sendMerged, this.langs.sendNum]},
+        yAxisName: ['数量']
+      }
       this.refresh();
     }
   }

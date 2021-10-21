@@ -1,5 +1,16 @@
 export default {
   base: {
+    mailSending: '发件',
+    mailCollection: '收件',
+    clickTagUnread: '点击标记未读',
+    clickTagRead: '点击标记已读',
+    subject: '主题',
+    fromMail: '发件人',
+    recipients: '收件人',
+    editRule: '编辑规则',
+    prompt: '提示',
+    deletePrompt: '是否要删除?',
+    delete: '删除',
     noData: '暂无数据',
     scrollToBottom: '到底了',
     totalClue: '总线索数',
@@ -49,6 +60,8 @@ export default {
     statisticsTime: '统计时间',
     cancel: '取消',
     confirm: '确认',
+    cancel1: '取 消',
+    confirm1: '确 认',
     reset: '重置',
     viewDetails: '查看详情',
     addToCockpit: '添加到驾驶舱',
@@ -80,6 +93,7 @@ export default {
     viewScope: '查看范围',
     dataRanges: '数据范围',
     folloStep: '跟进阶段',
+    folloStep1: '商机流程',
     ourReply: '我方回复数',
     otherReply: '对方回复数',
     otherReplyRate: '对方回复率',
@@ -205,6 +219,11 @@ export default {
   },
   staff: {
     staffSummary: '员工汇总',
+    followStatic: {
+      staffFollowStatic: '员工跟进统计',
+      notContacted: '未联系客户数',
+      contacted: '总联系客户数'
+    },
     performance: {
       performanceAnalysis: '业绩分析',
       targetAmount: '目标金额',
@@ -259,7 +278,35 @@ export default {
       dimensionDesc2: '暂未统计发件失败数据',
       permisiontooltip: '您只能查看管理权限内的数据',
       followTooltip1: '跟进数量不根据客户去重，跟进多少次计入多少次。',
-      followTooltip2: '跟进仅统计已完成跟进，不统计协作跟进。'
+      followTooltip2: '跟进仅统计已完成跟进，不统计协作跟进。',
+      receivedMerged: '收到（归并）',
+      receivedNotMerged: '收到（未归并）',
+      sendMerged: '发送（归并）',
+      sendNotMerged: '发送（未归并）',
+      totalSingleShotContact: '单发往来总数',
+      unread: '未读',
+      noReply: '未回复',
+      needlessReply: '免回复',
+      replied: '已回复',
+      replyRate: '回复率',
+      totalMass: '总群发数',
+      totalMassAddress: '总群发地址数',
+      totalMassSuccess: '群发成功数',
+      customerNumOpera: '总客户数',
+      customerNumPub: '新增客户数',
+      customerNum: '新增客户数',
+      unContact: '30天内未联系客户数',
+      uncontactNum: '30天内未联系客户数',
+      transferCustomerNumPub: '移交客户数',
+      transferCustomerNum: '移交客户数',
+      sendNum: '发件数',
+      reciveNum: '收件数',
+      edmCount: 'EDM发件数',
+      followUpNum: '跟进数',
+      quoteNum: '报价次数',
+      orderNum: '订单数量',
+      orderProductNum: '订单产品数',
+      orderAmt: '订单金额',
     },
     targetCompleteRate: {
       targetCompleteRate: '目标完成率',
@@ -372,7 +419,9 @@ export default {
   showSetting: {
     showSetting: '显示设置',
     searchCriteriaSorting: '搜索条件排序',
+    showTableSetting: '表格字段配置',
     titleNote: '注：拖动排序',
+    titleNote2: '(配置字段按照从上往下的顺序依次在表格中展现)',
     dateRange: '选择日期'
   },
   business: {
@@ -424,6 +473,18 @@ export default {
     }
   },
   performance: {
+    timeline: {
+      times: '次',
+      Quota: '实发数',
+      Delivery: '送达数',
+      Opened: '打开数',
+      Clicked: '点击数',
+      Business: '商机',
+      Follow: '跟进',
+      Order: '订单',
+      EmailHair: '邮件收/发',
+      Quote: '报价'
+    },
     base: {
       spread: '展开',
       fold: '收起',
@@ -432,7 +493,8 @@ export default {
       target: '目标',
       complete: '完成',
       amount: '金额',
-      number: '数量'
+      number: '数量',
+      limit10: '请输入小于10位的正整数'
     },
     rule: {
       completeTarget: '完成目标',
@@ -450,6 +512,7 @@ export default {
       performanceName: '绩效名称',
       plsSet: '请输入',
       plsSetName: '请输入名称',
+      plsSetNameRepeated: '名称不能重复',
       ruleDesc: '规则描述/口号',
       descDemo: '例：再接再厉，再创辉煌',
       selectExamination: '请选择一项考核内容',

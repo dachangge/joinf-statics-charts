@@ -59,6 +59,8 @@ import staffEnquiriesChat from './staffEnquiriesChat'
 import staffTargetCompletionRateChart from './staffTargetCompletionRateChart'
 // 转化分析
 import staffConversionAnalysisChart from './staffConversionAnalysisChart'
+// 跟进方式
+import staffFollowUpMethodChart from './staffFollowUpMethodChart'
 
 /* 商机 */
 // 线索分布
@@ -235,6 +237,14 @@ const staff = [
     en: 'conversion analysis',
     type: 'bar',
     tag: 'conversionAnalysis'
+  },
+  {
+    component: staffFollowUpMethodChart,
+    name: staffFollowUpMethodChart.name,
+    zh: '员工跟进统计',
+    en: 'staff follow-up',
+    type: 'bar',
+    tag: 'staffFollowUpMethod'
   }
 ]
 
