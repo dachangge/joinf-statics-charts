@@ -56,7 +56,7 @@ export default {
       }
     }
     return {
-      height: parseInt(globalConfig.defaultHeight) - 20 + 'px',
+      height: parseInt(globalConfig.defaultHeight) + 20 + 'px',
       picker: null,
       pickerValue: [],
       chartIns: null,

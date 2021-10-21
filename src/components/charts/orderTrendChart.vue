@@ -26,7 +26,7 @@
           <!-- <chart-type-switch class="detail-fixed-switch" v-show="inDetail && visible" :chart="chartIns" :types="['histogram', 'line']" :currentType="settings.type"></chart-type-switch> -->
           <!-- <hide-button class="detail-fixed-btn" v-show="inDetail" v-model="visible"></hide-button> -->
           <div class="inner-chart-wrap">
-            <chart ref="chart" :dataFn="dataFn" :showChart="visible" :settings="settings" v-show="visible"></chart>
+            <chart :height="height" ref="chart" :dataFn="dataFn" :showChart="visible" :settings="settings" v-show="visible"></chart>
           </div>
         </div>
       </div>

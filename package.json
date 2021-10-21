@@ -1,6 +1,6 @@
 {
   "name": "joinf-tms-statics-charts",
-  "version": "0.5.25",
+  "version": "0.5.26",
   "description": "tms统计相关图表",
   "main": "./dist/index.common.js",
   "author": "whc123 18814867536@163.com",
